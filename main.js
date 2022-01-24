@@ -5,16 +5,23 @@ $(".hamburger-button").click(function(){
 	$(this).toggleClass("active");
 });
 
-$("dd-menu").click(function(){
+
+$("#dd-menu").click(function(){
 	$(".mobile-menu").slideToggle();
 	$(".hamburger-button").toggleClass("active");
     window.location.hash = '#menu';
 });
-
-$("dd-team").click(function(){
+$("#dd-team").click(function(){
 	$(".mobile-menu").slideToggle();
 	$(".hamburger-button").toggleClass("active");
+    window.location.hash = '#section-team';
 });
+$("#dd-contact").click(function(){
+	$(".mobile-menu").slideToggle();
+	$(".hamburger-button").toggleClass("active");
+    window.location.hash = '#footer';
+});
+
 
 /* Onscroll adaptations of the header*/
 $(window).scroll(function () {
