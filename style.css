@@ -251,6 +251,7 @@ header a{
 }
 .dropdown a{
     border-bottom: 0.5px solid;
+    cursor: pointer;
 }
 .dropdown a:hover{
     color: #cfc5bc;
