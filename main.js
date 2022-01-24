@@ -13,12 +13,79 @@ $(window).scroll(function () {
     if ($heightScrolled < $defaultHeight) {
         $('header').removeClass("onscroll");
 		$('#logo').removeClass("onscroll");
+        $('#logo-heading').removeClass("onscroll");
 		$('.hamburger-button').removeClass("onscroll");
  	}
     else {
         $('header').addClass("onscroll");
 		$('#logo').addClass("onscroll");
+        $('#logo-heading').addClass("onscroll");
 		$('.hamburger-button').addClass("onscroll");
     }
 
 });
+
+
+/* $(window).scroll(function () {
+    var $heightScrolled = $(window).scrollTop();
+    var $defaultHeight = $('#section-team').height();
+
+    if ($heightScrolled < $defaultHeight) {
+        var typed = new Typed('#typed-2', {
+            stringsElement: '#typed-strings-2',
+            typeSpeed: 100,
+            backSpeed: 5,
+            smartBackspace: true,
+            loopCount: Infinity,
+            showCursor: false,
+        });
+ 	}
+    
+}); */
+
+
+AOS.init();
+
+//Typed.js code 
+var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings',
+    typeSpeed: 100,
+    backSpeed: 5,
+    loop: true,
+    backDelay: 4000,
+    smartBackspace: true,
+    loopCount: Infinity,
+    showCursor: false,
+  });
+var typed = new Typed('#typed-2', {
+    stringsElement: '#typed-strings-2',
+    typeSpeed: 100,
+    backSpeed: 0,
+    backDelay: 10,
+    loop: true,
+    backDelay: 4000,
+    loopCount: Infinity,
+    showCursor: false,
+});
+  
+var typed = new Typed('#typed-3', {
+    stringsElement: '#typed-strings-3',
+    typeSpeed: 100,
+    backSpeed: 0,
+    backDelay: 10,
+    loop: true,
+    backDelay: 4000,
+    loopCount: Infinity,
+    showCursor: false,
+});
+var typed = new Typed('#typed-4', {
+    stringsElement: '#typed-strings-4',
+    typeSpeed: 100,
+    backSpeed: 0,
+    backDelay: 10,
+    loop: true,
+    backDelay: 4000,
+    loopCount: Infinity,
+    showCursor: false,
+});
+  

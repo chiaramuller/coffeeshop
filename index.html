@@ -6,92 +6,112 @@ location_img: /images/eisdiele-2.JPG
 images:
    header_img-1: https://source.unsplash.com/m3tVFM7m8cs
    header_img-2: https://source.unsplash.com/cT8EMwebBNU
-   section-1_img: https://source.unsplash.com/vNqE2R7hSoc
-   section-2_img: https://source.unsplash.com/0vcYtHs4bho
+   section-1_img: https://source.unsplash.com/9fHMo1-5Io8
+   section-2_img: https://source.unsplash.com/qE1jxYXiwOA
 ---
 
 <section class="grid tall-100">
   
   <div class="col-4"></div>
 
-  <div class="col-3">
-    <div class="bg-image landscape" style="background-image: url('{{page.images.header_img-1}}');"></div>
+  <div class="col-3"  >
+    <div class="bg-image landscape " data-aos="zoom-in" data-aos-duration="1000" style="background-image: url('{{page.images.header_img-1}}');"></div>
   </div>
   
   <div class="col-5"></div>
   
-  <div class="col-3">
-    <div class="bg-image square"  style="background-image: url('{{page.images.header_img-2}}');"></div>
+  <div class="col-3"  >
+    <div data-aos="zoom-in" data-aos-duration="1000" class="bg-image square" style="background-image: url('{{page.images.header_img-2}}');"></div>
   </div>
 
-  <div class="col-9">
-    <h1>THE BURROW <br> COFFEESHOP</h1>
+  <div class="col-9-middle parent padded">
+    <h1 class="main-heading child">THE BURROW <br> COFFEESHOP</h1>
 
-    <span class="subtitle">FRESH. TODAY. TOMORROW. & EVERYDAY</span>
-    <h2>Our daily treats</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque placeat nihil libero, assumenda quaerat officia, at obcaecati et, excepturi saepe dolore dignissimos id porro in soluta sapiente possimus ut a?</p>
-    <a href="#">&#8640; menu.</a>
+    <span class="subtitle">fresh. today. tomorrow. & everyday</span>
+    
+    <div id="typed-strings">
+        <h2>Our daily treats.</h2>
+    </div>
+    <h2 id="typed"></h2>
+
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque placeat nihil libero, assumenda quaerat officia, at obcaecati et, excepturi saepe dolore dignissimos id porro in soluta sapiente possimus ut a? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, laboriosam aliquid accusantium voluptatem aspernatur rerum quisquam odio hic ad, sint earum corrupti eum dolor, libero consequuntur architecto voluptates aliquam sit.</p>
+    <a href="#menu">&#8640; menu.</a>
   </div>
 </section>
 
-
-<section class="grid tall-60">
+<!-- Team section -->
+<section id="section-team" class="grid tall-70">
   <div class="col-3-middle padded">
     <span class="subtitle">We put love in every dish.</span>
-    <h2>Our dream team</h2>
+    
+    <div id="typed-strings-2">
+        <h2>Our dream team.</h2>
+    </div>
+    <h2 id="typed-2"></h2>
+    
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque placeat nihil libero, assumenda quaerat officia, at obcaecati et, excepturi saepe dolore dignissimos id porro in soluta sapiente possimus ut a?</p>
 
     <a href="#">&#8640; meet us.</a>
   </div>
-  <div class="col-9 bg-image" style="background-image: url('{{page.images.section-1_img}}');"></div>
+  <div   class="col-9 bg-image border-l" style="background-image: url('{{page.images.section-1_img}}');" data-aos="fade-lft" data-aos-duration="1000"></div>
 </section>
 
+<!-- Location section -->
 <section class="grid tall-60">
-  <div class="col-9 bg-image" style="background-image: url('{{page.images.section-2_img}}');"></div>
+  <div class="col-9 bg-image border-r" style="background-image: url('{{page.images.section-2_img}}');"></div>
   
   <div class="col-3-middle padded">
     <span class="subtitle">Feel at home.</span>
-    <h2>Enjoy our Location.</h2>
+    <div id="typed-strings-3">
+        <h2>Enjoy our Location.</h2>
+    </div>
+    <h2 id="typed-3"></h2>
+
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque placeat nihil libero, assumenda quaerat officia, at obcaecati et, excepturi saepe dolore dignissimos id porro in soluta sapiente possimus ut a?</p>
 
-    <a href="#map">&#8640; Find us.</a>
+    <a href="#footer">&#8640; find us.</a>
   </div>
 
 </section>
 
 <!-- Menu Section -->
-<section class="padded bg-featured light-text menu grid-center">
+<section id="menu" class="padded menu grid-center">
   <div class="col-12 center">
-      <span class="subtitle">Wir wetten das Wasser läuft dir im Mund zusammen.</span>
-      <h2 class="text-lg"> Unsere Klassisker </h2>
-      <p>Und dann gibt es ja noch unsere wechselnden Tagesgerichte ...</p>
+      <span class="subtitle">Is your mouth watering yet?</span>
+      <div id="typed-strings-4">
+        <h2> Our blow-away-menu. </h2>
+    </div>
+    <h2 id="typed-4"></h2>
+      
+      <p class="capped-width">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ipsum nulla vel delectus cupiditate at architecto necessitatibus corporis recusandae ut neque id quae dolorum, maxime dolores eaque debitis dolor quod?</p>
   </div>
   <!-- First column  -->
-  <div class="col-5_lg-6_sm-12 padded-2">
+  <div class="col-4_lg-6_sm-12 padded-2">
       <h3> appetisers. </h3>
       <div class="grid">
           <div class="col-10 editable">
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
           </div>
-          <div class="col-2 editable">
+          <div class="col-2 right editable">
               <span class="price">20 €</span>
           </div>
           <div class="col-10 editable">
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
           </div>
-          <div class="col-2 editable">
+          <div class="col-2 right editable">
               <span class="price">$20 </span>
           </div>
           <div class="col-10 editable">
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
           </div>
-          <div class="col-2 editable">
+          <div class="col-2  right editable">
               <span class="price">$20 </span>
           </div>
           <div class="col-10 editable">
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
           </div>
-          <div class="col-2 editable">
+          <div class="col-2 right editable">
               <span class="price">$20 </span>
           </div>
       </div>
@@ -100,50 +120,50 @@ images:
           <div class="col-10 editable">
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
           </div>
-          <div class="col-2 editable">
+          <div class="col-2 right editable">
               <span class="price">$20 </span>
           </div>
           <div class="col-10 editable">
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
           </div>
-          <div class="col-2 editable">
+          <div class="col-2 right editable">
               <span class="price">$20 </span>
           </div>
           <div class="col-10 editable">
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
           </div>
-          <div class="col-2 editable">
+          <div class="col-2 right editable">
               <span class="price">$20 </span>
           </div>
           <div class="col-10 editable">
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
           </div>
-          <div class="col-2 editable">
+          <div class="col-2 righteditable">
               <span class="price">$20 </span>
           </div>
       </div>
   </div>
 
   <!-- Second column  -->
-  <div class="col-5_lg-6_sm-12 padded-2 mob-padded-t-0">
+  <div class="col-4_lg-6_sm-12 padded-2 mob-padded-t-0">
       <h3> classics. </h3>
       <div class="grid">
           <div class="col-10 editable">
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
           </div>
-          <div class="col-2 editable">
+          <div class="col-2 right editable">
               <span class="price">$20 </span>
           </div>
           <div class="col-10 editable">
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
           </div>
-          <div class="col-2 editable">
+          <div class="col-2 right editable">
               <span class="price">$20 </span>
           </div>
           <div class="col-10 editable">
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
           </div>
-          <div class="col-2 editable">
+          <div class="col-2  right editable">
               <span class="price">$20 </span>
           </div>
       </div>
@@ -152,13 +172,13 @@ images:
           <div class="col-10 editable">
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
           </div>
-          <div class="col-2 editable">
+          <div class="col-2 right editable">
               <span class="price">$20 </span>
           </div>
           <div class="col-10 editable">
               <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
           </div>
-          <div class="col-2 editable">
+          <div class="col-2 right editable">
               <span class="price">$20 </span>
           </div>
       </div>
@@ -167,18 +187,15 @@ images:
               <div class="col-10 editable">
                   <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
               </div>
-              <div class="col-2 editable">
+              <div class="col-2 right editable">
                   <span class="price">$20 </span>
               </div>
               <div class="col-10 editable">
                   <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
               </div>
-              <div class="col-2 editable">
+              <div class="col-2 right editable">
                   <span class="price">$20 </span>
               </div>
       </div>
-  </div>
-  <div class="col-10_sm-12 padded-2 center">
-      <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, illum, eius excepturi, consectetur vitae molestias voluptates eos deserunt similique maxime minus. Minus, iure? Quia animi vero nisi dolorum odio veniam!</p>
   </div>
 </section>

@@ -28,7 +28,7 @@ img { max-width: 100%; }
 
 html {
     scroll-behavior: smooth;
-    background-color: #BBADA0;
+    background-color: #cfc5bc;
 }
 
 section{
@@ -36,6 +36,9 @@ section{
 }
 
 /* -------------------------Universal Styles & Utility Classes--------------------------------*/
+/* Position classes */
+.parent { position: relative; }
+.child  { position: absolute; }
 
 /* Padding Utility Classes */ 
 .padded-sm { padding: 2.5%; }
@@ -92,6 +95,13 @@ section{
 
 .margin-tb { margin-top: 5%; margin-bottom: 5%; }
 .margin-lr { margin-left: 5%; margin-right: 5%; }
+
+/*Border utility classes */
+.border-r {  border-right: 0.5px solid; }
+.border-l {  border-left: 0.5px solid; }
+.border-b {  border-bottom: 0.5px solid; }
+.border-t {  border-top: 0.5px solid; }
+.border   {  border: 0.5px solid; }
 
 /*Minimum height classes*/
 .tall-30{min-height: 30vh;}
@@ -155,34 +165,59 @@ body{
     color: rgb(60,60,60);
 }
 
-h1{
-/*     font-family: 'Playfair Display', serif;
- */    font-family: 'Roboto Mono', monospace;
+h1,h2,h3,h5,h6{
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', sans-serif;
+}
 
+h1{
     font-size: 5rem;
     letter-spacing: 0.01em;
+}
+h4{ text-transform: uppercase;
+    font-family: 'Roboto Mono', sans-serif;
+}
+.main-heading{
+    top: -200px;
+    left: -50px;
+}
+
+h2{
+    min-height: 3rem;
+    font-size: 2rem;
+    color: white;
+}
+
+p{
+    line-height: 1.6rem;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+
 }
 
 .big-text {font-size: 4.5rem;}
 .white-text { color: white; }
 
-.subheading { font-size: 1.7rem;}
+.subtitle { 
+    font-size: 1.1rem;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
+
+    font-weight: 200;
+
+    text-transform: uppercase;
+}
+
+#typed-2,
+#typed-3{
+    min-height: 5.5rem;
+}
+
 .subtle { 
     font-size: 0.75rem;
     opacity: 0.7;
 }
-.handwriting { 
-    font-family: 'Permanent Marker', cursive;
-    font-size: 2rem;
-    position: absolute;
-    right: 10%;
-    bottom: 10%;
-    top: auto;
-    z-index: 3;
-}
- 
-
-
 
 .right  { text-align: right; }
 .left   { text-align: left; }
@@ -214,6 +249,10 @@ header{
     z-index: 100;
 }
 
+header a{
+    border: none;
+}
+
 header nav a,
 footer nav a{
     padding: 1rem;
@@ -222,9 +261,20 @@ footer nav a{
 
 header.onscroll{
     color:rgb(60, 60, 60);
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.3);
     transition: .5s;
 }
+#logo{ max-width: 100px;}
+#logo.onscroll{
+    display: none;
+}
+#logo-heading{
+    display: none;
+}
+#logo-heading.onscroll{
+    display: block;    
+}
+
 .hamburger-button{
     max-width: 3rem;
 }
@@ -240,12 +290,10 @@ header.onscroll{
     font-weight: 200;
     font-size: 2rem;
     line-height: 0.8;
-    margin-top: -0.5rem;
     right: 5%;
     top: 1.5rem;
     z-index: 4;
     transition: all 0.5s ease;
-    position: fixed;
 }
   
 .hamburger-button.active {
@@ -324,6 +372,10 @@ header.onscroll{
     position: relative;
 }
 
+/* Menu */
+span.price{
+    line-height: 1.6rem;
+}
 
 /* Map */
 iframe{ width: 100%; }
