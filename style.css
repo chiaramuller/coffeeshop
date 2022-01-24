@@ -1,4 +1,16 @@
+/*
+Fonts:
+    font-family: 'Dongle', sans-serif;
 
+    font-family: 'Oswald', sans-serif;
+
+    font-family: 'Playfair Display', serif;
+
+    font-family: 'Roboto Condensed', sans-serif;
+
+    font-family: 'Roboto Mono', monospace;
+
+*/
 
 /*Style Sheet*/ 
 *{
@@ -10,16 +22,18 @@
 img { max-width: 100%; }
   
 /* Optional padding to override default gridlex columns */ 
-[class*=col] { padding: 0; }
+[class*=col] { 
+    padding: 0;
+ }
 
 html {
     scroll-behavior: smooth;
+    background-color: #BBADA0;
 }
 
 section{
     border-bottom: 0.5px solid;
 }
-
 
 /* -------------------------Universal Styles & Utility Classes--------------------------------*/
 
@@ -139,6 +153,14 @@ section{
 body{
     font-family: 'Poppins', sans-serif;
     color: rgb(60,60,60);
+}
+
+h1{
+/*     font-family: 'Playfair Display', serif;
+ */    font-family: 'Roboto Mono', monospace;
+
+    font-size: 5rem;
+    letter-spacing: 0.01em;
 }
 
 .big-text {font-size: 4.5rem;}
