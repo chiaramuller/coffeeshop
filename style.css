@@ -249,11 +249,20 @@ header{
 header a{
     border: none;
 }
+.dropdown a{
+    border-bottom: 0.5px solid;
+}
+.dropdown a:hover{
+    color: #cfc5bc;
+}
+.dropdown a:last-child{
+    border-bottom: none;
+}
+
 
 header nav a,
 footer nav a{
     padding: 1rem;
-    border: none;
 }
 footer a{ 
     border: none;
@@ -274,7 +283,7 @@ header.onscroll{
     background-color: rgba(255, 255, 255, 0.3);
     transition: .5s;
 }
-#logo{ max-width: 100px;}
+#logo{ max-width: 90px;}
 #logo.onscroll{
     display: none;
 }
@@ -300,12 +309,13 @@ footer .logo{
     padding: 0 0.5rem;
     display: inline-block;
     font-weight: 200;
-    font-size: 2rem;
-    line-height: 0.8;
     right: 5%;
     top: 1.5rem;
     z-index: 4;
     transition: all 0.5s ease;
+    font-size: 2.5rem;
+    margin-top: -0.7rem;
+    position: fixed;
 }
   
 .hamburger-button.active {

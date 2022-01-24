@@ -5,6 +5,17 @@ $(".hamburger-button").click(function(){
 	$(this).toggleClass("active");
 });
 
+$("dd-menu").click(function(){
+	$(".mobile-menu").slideToggle();
+	$(".hamburger-button").toggleClass("active");
+    window.location.hash = '#menu';
+});
+
+$("dd-team").click(function(){
+	$(".mobile-menu").slideToggle();
+	$(".hamburger-button").toggleClass("active");
+});
+
 /* Onscroll adaptations of the header*/
 $(window).scroll(function () {
     var $heightScrolled = $(window).scrollTop();
@@ -24,24 +35,6 @@ $(window).scroll(function () {
     }
 
 });
-
-
-/* $(window).scroll(function () {
-    var $heightScrolled = $(window).scrollTop();
-    var $defaultHeight = $('#section-team').height();
-
-    if ($heightScrolled < $defaultHeight) {
-        var typed = new Typed('#typed-2', {
-            stringsElement: '#typed-strings-2',
-            typeSpeed: 100,
-            backSpeed: 5,
-            smartBackspace: true,
-            loopCount: Infinity,
-            showCursor: false,
-        });
- 	}
-    
-}); */
 
 
 AOS.init();
