@@ -147,17 +147,7 @@ section{
 .bg-pos-l { background-position: left; }
 .bg-pos-r { background-position: right; }
 
-#background-video {
-    width: 100vw;
-    height: 100vh; 
-    object-fit: cover;
-    position: fixed;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0; 
-    z-index: -1;
-} 
+
 
 /* Typography */
 body{
@@ -196,7 +186,14 @@ p{
 
 }
 
-.big-text {font-size: 4.5rem;}
+.big-text {
+    font-size: 4rem;
+    font-family: 'Roboto Mono', sans-serif;
+    text-transform: uppercase;
+}
+section.border-b{
+    border-bottom: 0.5px solid rgb(60,60,60);;
+}
 .white-text { color: white; }
 
 .subtitle { 
@@ -258,6 +255,19 @@ footer nav a{
     padding: 1rem;
     border: none;
 }
+footer a{ 
+    border: none;
+}
+footer a:hover{
+    color: white;
+}
+.fab{
+    display: block;
+    font-size: 2.1rem;
+    padding: 0.2rem;
+}
+
+
 
 header.onscroll{
     color:rgb(60, 60, 60);
@@ -278,7 +288,9 @@ header.onscroll{
 .hamburger-button{
     max-width: 3rem;
 }
-
+footer .logo{
+    max-width: 140px;
+}
 /*Mobile menu*/
 
 /* Mobile Hamburger Menu*/
@@ -326,33 +338,6 @@ header.onscroll{
 }
 
 /* Gallery */
-.gallery-container{
-    position: relative;
-}
-.image-text{
-    font-size: 1.3rem;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-}
-.info{
-    text-transform: uppercase;
-    font-size: 0.9rem;
-}
-
-.gallery-container:hover .bg-image{
-    opacity: 0.5;
-
-}
-.gallery-container:hover .image-text{
-    opacity: 1;
-}
-
-
 .overlay{
     position: relative;
 }
@@ -375,6 +360,16 @@ header.onscroll{
 /* Menu */
 span.price{
     line-height: 1.6rem;
+}
+
+/* Quote */
+#background-video {
+    width: 950px; 
+    object-fit: cover;
+
+} 
+.quote-text{
+    left: 800px;
 }
 
 /* Map */

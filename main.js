@@ -89,3 +89,14 @@ var typed = new Typed('#typed-4', {
     showCursor: false,
 });
   
+
+var typed = new Typed('#typed-5', {
+    stringsElement: '#typed-strings-5',
+    typeSpeed: 100,
+    backSpeed: 0,
+    backDelay: 10,
+    loop: true,
+    backDelay: 4000,
+    loopCount: Infinity,
+    showCursor: false,
+});
