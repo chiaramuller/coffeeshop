@@ -1,0 +1,63 @@
+---
+layout: default
+owner_img1: /images/agata-1.JPG
+owner_img2: /images/agata-christian-1.JPG
+location_img: /images/eisdiele-2.JPG
+images:
+   header_img-1: https://source.unsplash.com/m3tVFM7m8cs
+   header_img-2: https://source.unsplash.com/cT8EMwebBNU
+   section-1_img: https://source.unsplash.com/vNqE2R7hSoc
+   section-2_img: https://source.unsplash.com/0vcYtHs4bho
+---
+
+<section class="grid tall-100">
+  
+  <div class="col-4"></div>
+
+  <div class="col-3">
+    <div class="bg-image landscape" style="background-image: url('{{page.images.header_img-1}}');"></div>
+  </div>
+  
+  <div class="col-5"></div>
+  
+  <div class="col-3">
+    <div class="bg-image landscape"  style="background-image: url('{{page.images.header_img-2}}');"></div>
+  </div>
+
+  <div class="col-9">
+    <h1>VISIT <br> THE BURROW COFFEE</h1>
+
+    <span class="subtitle">FRESH. TODAY. TOMORROW. & EVERYDAY</span>
+    <h2>Our daily treats</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque placeat nihil libero, assumenda quaerat officia, at obcaecati et, excepturi saepe dolore dignissimos id porro in soluta sapiente possimus ut a?</p>
+    <a href="#">&#8640; menu.</a>
+  </div>
+</section>
+
+
+<section class="grid tall-60">
+  <div class="col-3-middle padded">
+    <span class="subtitle">We put love in every dish.</span>
+    <h2>Our dream team</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque placeat nihil libero, assumenda quaerat officia, at obcaecati et, excepturi saepe dolore dignissimos id porro in soluta sapiente possimus ut a?</p>
+
+    <a href="#">&#8640; meet us.</a>
+  </div>
+  <div class="col-9 bg-image" style="background-image: url('{{page.images.section-1_img}}');"></div>
+</section>
+
+<section class="grid tall-60">
+  
+  <div class="col-9 bg-image" style="background-image: url('{{page.images.section-2_img}}');"></div>
+  
+  <div class="col-3-middle padded">
+    <span class="subtitle">Feel at home.</span>
+    <h2>Enjoy our Location.</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque placeat nihil libero, assumenda quaerat officia, at obcaecati et, excepturi saepe dolore dignissimos id porro in soluta sapiente possimus ut a?</p>
+
+    <a href="#map">&#8640; Find us.</a>
+  </div>
+
+</section>
+
+{% include map.html %}

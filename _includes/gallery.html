@@ -1,0 +1,24 @@
+<section id="sortiment" class="bg-white padded ">
+    <div class="capped-width grid">
+        <div class="col-12 center padded-b-2">
+            <h2 class="editble">Unser Sortiment</h2>
+            <p class="editable">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ullam aspernatur ipsam culpa, asperiores atque at, molestias, tenetur ea fuga quibusdam quam? Dignissimos, cum iste! Vero laboriosam beatae adipisci ad.</p>
+        </div>
+
+        {% for item in page.icecream %}
+            {% if item.verfuegbar %}
+                <div class="col-3_sm-4_xs-6 padded-05 gallery-container">
+                    <div class="bg-image square overlay" style="background-image: url('{{item.img_url}}');"></div>
+                    <div class="image-text">
+                        <span>{{item.title}}</span>
+                        {% if item.vegan %}
+                            <span class="info">vegan</span>
+                        {% endif %}	
+                    </div>
+                </div>
+            {% endif %}
+        {% endfor%}
+
+    </div>
+
+</section>
