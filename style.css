@@ -28,7 +28,7 @@ img { max-width: 100%; }
 
 html {
     scroll-behavior: smooth;
-    background-color: #cfc5bc;
+    overflow-x: hidden;
 }
 
 section{
@@ -102,6 +102,7 @@ section{
 .border-b {  border-bottom: 0.5px solid; }
 .border-t {  border-top: 0.5px solid; }
 .border   {  border: 0.5px solid; }
+.border-n {  border: none; }
 
 /*Minimum height classes*/
 .tall-30{min-height: 30vh;}
@@ -150,9 +151,11 @@ section{
 
 
 /* Typography */
-body{
+html, body{
     font-family: 'Poppins', sans-serif;
     color: rgb(60,60,60);
+    background-color: hsl(28, 17%, 77%);
+
 }
 
 h1,h2,h3,h5,h6{
@@ -348,26 +351,6 @@ footer .logo{
     padding-top: 3px;
 }
 
-/* Gallery */
-.overlay{
-    position: relative;
-}
-
-
-.overlay::before{
-    content: "";
-    position: absolute;
-    top:0;
-    bottom:0;
-    left:0;
-    right:0;
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-.overlay > *{
-    position: relative;
-}
-
 /* Menu */
 span.price{
     line-height: 1.6rem;
@@ -377,7 +360,6 @@ span.price{
 #background-video {
     width: 950px; 
     object-fit: cover;
-
 } 
 .quote-text{
     left: 800px;
@@ -388,31 +370,58 @@ iframe{ width: 100%; }
 
 /* Responsive Design */
 
-.tab-show {
-    display: none; 
-}
+.tab-show { display: none; }
+.mob-show { display: none; }
 
 @media(max-width: 1024px){
+    .hamburger-button{ 
+        top: 0.5rem;
+        margin-top: -0.2rem;}
+
     .tab-show{ display: block;}
     .tab-hide{ display: none ;}
 
-    .big-text{ font-size: 3.5rem;}
-    .subheading {font-size: 1.5rem;}
+    .big-text{ font-size: 1rem;}
 
-    .image-text {
-        font-size: 1.1rem;
-        opacity: 1;
+    h2{ font-size: 1.8rem;}
+
+    #background-video { width: 700px;} 
+    .quote-text {left: 512px;}
+    .video-container {margin: auto;}
+
+    .coffee-img { padding-bottom: 120%;}
+    .tall-70 { min-height: 55vh;}
+    .tall-60 { min-height: 45vh;}
+
+    iframe{   max-height: 30vh;}
+}
+
+@media (max-width: 880px) {
+    .hamburger-button{ 
+        margin-top: -0.7rem;
     }
-   
-    .gallery-container .bg-image{
-        opacity: 0.7;
+
+    h1{ font-size: 4rem;}
+
     
-    }
+    .quote-text{ left: 300px;}
+    #background-video { width: 550px;} 
 
 }
+
 @media (max-width: 600px) {
-    .big-text{ font-size: 2.5rem;}
-    .subheading { font-size: 1.2rem;}
-    .handwriting { font-size: 1.5rem;}
+
+    .mob-show{ display: block;}
+    .mob-hide{ display: none ;}
+
+    #typed-2, #typed-3 { min-height: 3rem;}
+
+    .square { padding-bottom: 165%;}
+    .team-img { min-height: 300px;}
+
+    
+    #background-video { width: 500px;} 
+    .quote-text {left: 212px;}
+    
 }
 
