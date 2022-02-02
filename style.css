@@ -304,6 +304,21 @@ header.onscroll{
 footer .logo{
     max-width: 140px;
 }
+/*Sol y limones button*/
+.sol-y-limones-button{
+    position: fixed;
+    z-index: 300;
+    right: 50px;
+    bottom: 50px;
+    width: 100px;
+    height: 100px;
+    background-color: #EDC9FF;
+    color: white;
+    text-decoration: none;
+    border-radius: 50%;
+    border:none;
+    font-size: 0.8rem;
+}
 /*Mobile menu*/
 
 /* Mobile Hamburger Menu*/
@@ -380,6 +395,10 @@ iframe{ width: 100%; }
 
     .tab-show{ display: block;}
     .tab-hide{ display: none ;}
+    .main-heading{
+        margin-top: -100px;
+        margin-left: -100px;
+    }
 
     .big-text{ font-size: 1rem;}
 
@@ -390,18 +409,19 @@ iframe{ width: 100%; }
     .video-container {margin: auto;}
 
     .coffee-img { padding-bottom: 120%;}
-    .tall-70 { min-height: 55vh;}
-    .tall-60 { min-height: 45vh;}
+
 
     iframe{   max-height: 30vh;}
 }
 
-@media (max-width: 880px) {
+@media (max-width: 768px) {
+    .tall-70 { min-height: 55vh;}
+    .tall-60 { min-height: 45vh;}
     .hamburger-button{ 
         margin-top: -0.7rem;
     }
 
-    h1{ font-size: 4rem;}
+    h1{ font-size: 3.5rem;}
 
     
     .quote-text{ left: 300px;}
@@ -413,6 +433,14 @@ iframe{ width: 100%; }
 
     .mob-show{ display: block;}
     .mob-hide{ display: none ;}
+    
+    h1{ font-size: 3rem;}
+    .main-heading{
+        margin-top: -60px;
+        margin-left: -60px;
+        line-height: 1;
+        margin-bottom: 2rem;        
+    }
 
     #typed-2, #typed-3 { min-height: 3rem;}
 
@@ -420,8 +448,22 @@ iframe{ width: 100%; }
     .team-img { min-height: 300px;}
 
     
-    #background-video { width: 500px;} 
+    #background-video { width: 100%;} 
     .quote-text {left: 212px;}
-    
+}
+
+@media (max-width: 400px){
+    h1{ font-size: 2.5rem;}
+    h2{ 
+        font-size: 1.5rem;
+        min-height: 4rem;
+        margin-bottom: 0;
+    }
+    .main-heading{
+        margin-top: -60px;
+        margin-left: -60px;
+        line-height: 1;
+        margin-bottom: 2rem;        
+    }
 }
 
