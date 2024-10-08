@@ -127,7 +127,7 @@ section{
 .bg-white { background-color: white; }
   
 .bg-image {
-    background-color: grey; /* Set a fall-back color while images are loading */ 
+    /*background-color: grey; /* Set a fall-back color while images are loading */ 
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
