@@ -304,22 +304,7 @@ header.onscroll{
 footer .logo{
     max-width: 140px;
 }
-/*Sol y limones button*/
-.sol-y-limones-button{
-    position: fixed;
-    z-index: 300;
-    right: 50px;
-    bottom: 50px;
-    width: 100px;
-    height: 100px;
-    background-color: #EDC9FF;
-    color: white;
-    text-decoration: none;
-    border-radius: 50%;
-    border:none;
-    font-size: 0.8rem;
-}
-/*Mobile menu*/
+
 
 /* Mobile Hamburger Menu*/
 .hamburger-button {
@@ -363,7 +348,7 @@ footer .logo{
 }
 
 .logo{
-    padding-top: 3px;
+    padding-top: 2px;
 }
 
 /* Menu */
