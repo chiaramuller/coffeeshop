@@ -1,3 +1,9 @@
+/* Dropdown Languages Menu */
+$(".dropdown-arrow-lang").click(function(){
+    var $elements = $(".fa-chevron-down");
+    $($elements[0]).toggleClass("active");
+    $("#nav-languages").toggleClass("active");
+}); 
 
 /* Responsive design Hamburger Menu */
 $(".hamburger-button").click(function(){
@@ -36,8 +42,8 @@ $(window).scroll(function () {
  	}
     else {
         $('header').addClass("onscroll");
-		// $('#logo').addClass("onscroll");
-        // $('#logo-heading').addClass("onscroll");
+		$('#logo').addClass("onscroll");
+        $('#logo-heading').addClass("onscroll");
 		$('.hamburger-button').addClass("onscroll");
     }
 

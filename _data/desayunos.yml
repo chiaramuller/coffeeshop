@@ -1,77 +1,119 @@
 desayunos:
  - nombre: El panameño 
+   nombre-en: The panamenian 
    des: Hojaldra, bistek, huevo frito, queso
+   des-en: Local fried bread, beef with vegetables, fried egg & cheese
    precio: $ 8.00
  - nombre: Avo-Toast
+   nombre-en: Avo-Toast
    des: Pan casero, aguacate, tomate, queso fresco, huevo frito, aceite de oliva
+   des-en: Homemade bread, avocado, tomato, fresh cheese, fried egg, olive oil 
    precio: $ 8.00
  - nombre: Smoothiebowl
-   des: Smoothie bowl, granola, fruta fresca, mantequilla de maní
+   nombre-en: Smoothiebowl
+   des: Smoothie bowl, granola de la casa, fruta fresca, mantequilla de maní, chia
+   des-en: Frozen smoothie bowl, homemade granola, fresh fruit, peanut butter, chia
    precio: $ 8.00
  - nombre: El especial
-   des: Pan casero, queso crema, cebolla morada, queso mozzarella, 2 huevos fritos, espinaca, aceite de oliva
+   nombre-en: The special one 
+   des: Pan casero, queso crema, cebolla morada, queso, 2 huevos fritos, espinaca, aceite de oliva
+   des-en: Homemade bread, cream cheese, red onion, cheese, 2 fried eggs, spinach, olive oil 
    precio: $ 8.00
  - nombre: El saludable
+   nombre-en: The healthy one
    des: Yoghurt griego, fruta fresca, granola de la casa, chia, miel 
+   des-en: Greek yoghurt, fresh fruit, homemade granola, chia, honey 
    precio: $ 7.00
  - nombre: Huevos al gusto 
-   des: Pan casero, 3 huevos revueltos o fritos, queso crema
+   nombre-en: Eggs your choice
+   des: Pan casero, 3 huevos revueltos o fritos, queso crema o mantequilla 
+   des-en: Homemade bread, 3 scrambled or fried eggs, cream cheese or butter 
    precio: $ 5.00
  - nombre: Crêpe - pancake francés 
+   nombre-en: Crêpe - french pancake 
    des: Dulce - Nutella & banana <br>Salado - Jamon, queso & tomate
+   des: Sweet - Nutella 6 banana <br>Salty - Ham, cheese & tomato 
    precio: $ 5.00
  - nombre: Pancakes americanos
-   des: Dulce - Fruta fresca, almendras y sirope <brYSalado - Huevo revuelto y bacon 
+   nombre-en: American pancakes 
+   des: Dulce - Fruta fresca, almendras y sirope <br>Salado - Huevo revuelto y bacon 
+   des-en: Sweet - Fresh fruit, toasted almonds & sirup <br>Salty - Scrambled eggs & bacon 
    precio: $ 5.00
  - nombre: Extras
+   nombre-en: Extras 
    des: Mantequilla, jamón, queso, huevo, pan, aguacate, queso crema, hojaldra, bacon
+   des-en: Butter, ham, cheese, egg, bread, avocado, cream cheese, hojaldra, bacon 
    precio: $ 1.00 
 extras:
  - nombre: Dulce de zanahoria
+   nombre-en: Carrot cake
    precio: $ 3.00
  - nombre: Fruta fresca
+   nombre-en: Fresh fruit 
    precio: $ 3.00
 bebidascalientes: 
  - nombre: Espresso
+   nombre-en: Espresso 
    precio: $ 2.00
- - nombre: Espressio dopio
+ - nombre: Espressio doppio
+   nombre-en: Double espresso
    precio: $ 3.00
  - nombre: Americano
+   nombre-en: Americano
    precio: $ 2.50
  - nombre: Cappuccino 
+   nombre-en: Cappuccino
    precio: $ 3.00
  - nombre: Cappuccino grande
+   nombre-en: Big cappuccino
    precio: $ 3.50
  - nombre: Latte macchiato 
+   nombre-en: Latte macchiato 
    precio: $ 3.50
  - nombre: Espresso macchiato
+   nombre-en: Espresso macciato
    precio: $ 2.50
  - nombre: Chocolatada
+   nombre-en: Hot chocolate
    precio: $ 3.00
  - nombre: Moccaccino
+   nombre-en: Moccaccino
    precio: $ 4.00
  - nombre: Té 
+   nombre-en: Tea
    precio: $ 2.00
  - nombre: + leche vegana
+   nombre-en: + vegan milk 
    precio: +$ 0.50
  - nombre: + sirope (avellana, vainilla, caramelo)
+   nombre-en: + sirup (hazelnut, vanilla, caramel)
    precio: +$ 0.50
 especialidadesfrias:
  - nombre: Iced coffee/frappé de café
+   nombre-en: Iced coffee/frappé
    precio: $ 4.00
- - nombre: Frappé de café con chocolate/avellana/vainilla/chocolate 
+ - nombre: Frappé de café con chocolate/avellana/vainilla/salty caramel 
+   nombre-en: Frappé with coffee and chocolate/hazelnut/vanilla/salty caramel 
    precio: $ 4.50 
  - nombre: Pipa/Coco frío
+   nombre-en: Cold coconut
    precio: $ 3.00
  - nombre: Jugo de naranja/mango/manzana 
+   nombre-en: Orange juice/apple juice/mango juice
    precio: $ 2.00
 smoothies: 
  - nombre: Detox
-   des: espinaca, apio, piña, gengibre
+   nombre-en: Detox 
+   des: Espinaca, apio, piña, gengibre
+   des-en: Spinach, sellery, pineapple, ginger
    precio: $ 5.00
  - nombre: Berry power
+   nombre-en: Berry power
    des: Frutos rojos, banana, chia
+   des-en: Berry mix, banana, chia 
    precio: $ 5.00
- - nombre: Mix you own (leche o agua)
+ - nombre: Mix your own (leche o agua)
+   nombre-en: Mix your own (milk or water)
    des: Frutas de tu elección - banana, frutos rojos, piña, papaya, maracuya 
+   des-en: Fruits of your choice - banana, red berries, pineapple, papaya, maracuya
    precio: $ 4.00

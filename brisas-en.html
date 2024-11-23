@@ -31,17 +31,16 @@ images:
     <div class="margin-b" >
         <img class="main-mob child tab-show margin-t-1" src="/images/brisas-logo.png" alt="">     
         <div  id="typed-strings">
-            <h2 >Comidas caseras hechas con amor.</h2>
+            <h2 >Homemade food made with love.</h2>
         </div>
         <h2 class="typed-mob"id="typed"></h2>
-    
         <p>
-            En Brisas, creemos en el poder de los alimentos frescos, balanceados y llenos de sabor, diseñados para hacerte sentir bien cada día. Nuestra misión es ofrecerte platos que no solo nutran tu cuerpo, sino que también llenen tu alma de alegría.
+            At Brisas, we believe in the power of fresh, balanced, and flavorful food, designed to make you feel good every day. Our mission is to offer dishes that not only nourish your body but also fill your soul with joy.  
             <br>
-            Descubre combinaciones únicas, ingredientes de alta calidad y opciones pensadas para todos los gustos. Porque comer rico y saludable es algo que puedes disfrutar todos los días. 
-        </p>        
-    <a href="#desayunos">&#8640; desayunos.</a> <br>
-    <a href="#almuerzos">&#8640; almuerzos.</a>
+            Discover unique combinations, high-quality ingredients, and options crafted for every taste. Because eating delicious and healthy meals is something you can enjoy every single day.  
+        </p>      
+    <a href="#desayunos">&#8640; breakfast.</a> <br>
+    <a href="#almuerzos">&#8640; lunch.</a>
 
     </div>
 
@@ -96,20 +95,20 @@ images:
 <!-- BREAKFAST Section -->
 <section id="desayunos" class="padded menu grid-center" >
   <div class="col-12 center" >
-      <p class="subtitle">Ya se te hizo agua en la boca?</p>
+      <p class="subtitle">Is your mouth watering yet?</p>
       <div id="typed-strings-4">
-        <h2> Nuestro menu de desayunos. </h2>
+        <h2> Our breakfast menu. </h2>
     </div>      
       <!-- <p class="capped-width padded-r padded-l">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ipsum nulla vel delectus cupiditate at architecto necessitatibus corporis recusandae ut neque id quae dolorum, maxime dolores eaque debitis dolor quod?</p> -->
   </div>
   <!-- First column  -->
   <div class="col-4_lg-6_sm-12 padded-2">
-      <h3> Desayunos. </h3>
+      <h3> Breakfast. </h3>
       <div class="grid">
       {% for item in site.data.desayunos.desayunos %}
           <div class="col-10-middle_sm-9 editable">
-              <h4>{{item.nombre}}</h4>
-              <p> {{item.des}} </p>
+              <h4>{{item.nombre-en}}</h4>
+              <p> {{item.des-en}} </p>
           </div>
           <div class="col-2-middle_sm-3 right editable">
               <span class="price">{{item.precio}}</span>
@@ -118,7 +117,7 @@ images:
 
       {% for item in site.data.desayunos.extras %}
       <div class="col-10-middle_sm-9 editable">
-        <h4>{{item.nombre}}</h4>
+        <h4>{{item.nombre-en}}</h4>
       </div>
       <div class="col-2-middle_sm-3 right editable">
         <span class="price">{{item.precio}}</span>
@@ -130,22 +129,22 @@ images:
 
   <!-- Second column  -->
   <div class="col-4_lg-6_sm-12 padded-2 mob-padded-t-0">
-      <h3> Bebidas calientes. </h3>
+      <h3> Hot drinks. </h3>
       <div class="grid padded-b">
         {% for item in site.data.desayunos.bebidascalientes %} 
             <div class="col-10_sm-9">
-                <span> {{item.nombre}} </span>
+                <span> {{item.nombre-en}} </span>
              </div>
               <div class="col-2_sm-3 right ">
                   <span class="price ">{{item.precio}}</span>
               </div>
        {% endfor %}
       </div>
-      <h3> Especialidades frías. </h3>
+      <h3> Cold specials. </h3>
       <div class="grid padded-b">
         {% for item in site.data.desayunos.especialidadesfrias %} 
             <div class="col-10-middle_sm-9 padded-b-1">
-              <span> {{item.nombre}} </span>
+              <span> {{item.nombre-en}} </span>
             </div>
             <div class="col-2_sm-3 right ">
                 <span class="price">{{item.precio}}</span>
@@ -157,8 +156,8 @@ images:
       <div class="grid-middle">
         {% for item in site.data.desayunos.smoothies %} 
             <div class="col-10-middle_sm-9">
-              <h4> {{item.nombre}} </h4>
-              <p> {{item.des}}</p>
+              <h4> {{item.nombre-en}} </h4>
+              <p> {{item.des-en}}</p>
             </div>
             <div class="col-2-middle_sm-3 right ">
                 <span class="price">{{item.precio}}</span>
@@ -167,12 +166,12 @@ images:
       </div>
 
       <div class="grid border-thick padded">
-        <h3>El local</h3>
+        <h3>The local</h3>
          <div class=" col-10-middle_sm-9">
-            <h4>Combo dulce</h4>
-            <p>Dulce de zanahoria + café de tu elección</p>
-            <h4>Combo salada</h4>
-            <span>Tostado de jamón, queso y tomate + café de tu elección</span>
+            <h4>Sweet combo</h4>
+            <p>Carrot cake + coffee of your choice</p>
+            <h4>Salty combo</h4>
+            <span>Toasted ham, cheese & tomato sandwich + coffee of your choice</span>
 
          </div>
          <div class="col-2-middle_sm-3 right">
@@ -185,20 +184,20 @@ images:
 <!-- LUNCH Section -->
 <section id="almuerzos" class="padded menu grid-center" >
     <div class="col-12 center" >
-        <span class="subtitle">Ya se te hizo agua en la boca?</span>
+        <span class="subtitle">Is your mouth watering yet?</span>
         <div id="typed-strings-4">
-          <h2> Nuestro menu de almuerzos. </h2>
+          <h2>Our lunch menu.</h2>
       </div>      
         <!-- <p class="capped-width padded-r padded-l">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ipsum nulla vel delectus cupiditate at architecto necessitatibus corporis recusandae ut neque id quae dolorum, maxime dolores eaque debitis dolor quod?</p> -->
     </div>
     <!-- First column  -->
     <div class="col-4_lg-6_sm-12 padded-2">
-        <h3> Clásicos. </h3>
+        <h3> Classics. </h3>
         {% for item in site.data.almuerzos.clasicos %}
         <div class="grid margin-b">
             <div class="col-10-middle_sm-9">
-                <h4>{{item.nombre}}</h4>
-                <span> {{item.des}} </span>
+                <h4>{{item.nombre-en}}</h4>
+                <span> {{item.des-en}} </span>
             </div>
             <div class="col-2-middle_sm-3 right">
                 <span class="price">{{item.precio}}</span>
@@ -206,7 +205,7 @@ images:
 
             {% for add in item.add %}
                 <div class="col-10-middle_sm-9">
-                    <span>{{add.des}}</span>
+                    <span>{{add.des-en}}</span>
                 </div>
                 <div class="col-2-middle_sm-3 right">
                     <span class="price">{{add.precio}}</span>
@@ -215,12 +214,12 @@ images:
         </div>
         {% endfor %}
 
-        <h3>Influencia asiatica.</h3>
+        <h3>Asian influence.</h3>
         {% for item in site.data.almuerzos.influenciaasiatica %}
         <div class="grid margin-b">
             <div class="col-10-middle_sm-9">
-                <h4>{{item.nombre}}</h4>
-                <span> {{item.des}} </span>
+                <h4>{{item.nombre-en}}</h4>
+                <span> {{item.des-en}} </span>
             </div>
             <div class="col-2-middle_sm-3 right">
                 <span class="price">{{item.precio}}</span>
@@ -241,12 +240,12 @@ images:
   
     <!-- Second column  -->
     <div class="col-4_lg-6_sm-12 padded-2 mob-padded-t-0">
-        <h3> Opciones vegetarianas y saludables. </h3>
+        <h3> Vegetarian & healthy options. </h3>
         {% for item in site.data.almuerzos.opcionesvegetarianas %}
         <div class="grid margin-b">
             <div class="col-10-middle_sm-9">
-                <h4>{{item.nombre}}</h4>
-                <span> {{item.des}} </span>
+                <h4>{{item.nombre-en}}</h4>
+                <span> {{item.des-en}} </span>
             </div>
             <div class="col-2-middle_sm-3 right">
                 <span class="price">{{item.precio}}</span>
@@ -254,7 +253,7 @@ images:
 
             {% for add in item.add %}
                 <div class="col-10-middle_sm-9">
-                    <span>{{add.des}}</span>
+                    <span>{{add.des-en}}</span>
                 </div>
                 <div class="col-2-middle_sm-3 right">
                     <span class="price">{{add.precio}}</span>
@@ -263,11 +262,11 @@ images:
         </div>
         {% endfor %}
 
-        <h3> Bebidas. </h3>
+        <h3> Drinks. </h3>
         <div class="grid padded-b">
           {% for item in site.data.almuerzos.bebidas %} 
               <div class="col-10_sm-9">
-                  <span> {{item.nombre}} </span>
+                  <span> {{item.nombre-en}} </span>
                </div>
                 <div class="col-2_sm-3 right ">
                     <span class="price ">{{item.precio}}</span>
@@ -279,8 +278,8 @@ images:
         <div class="grid-middle">
           {% for item in site.data.desayunos.smoothies %} 
               <div class="col-10-middle_sm-9">
-                <h4> {{item.nombre}} </h4>
-                <p> {{item.des}}</p>
+                <h4> {{item.nombre-en}} </h4>
+                <p> {{item.des-en}}</p>
               </div>
               <div class="col-2-middle_sm-3 right ">
                   <span class="price">{{item.precio}}</span>
@@ -297,31 +296,36 @@ images:
             <div class=" bg-image portrait" style="background-image: url('/images/chiara.png');"></div>
         </div>
         <div class="col-9-center_sm-12 padded-r padded-l tab-hide">
-            <h2>Quien soy? </h2>
+            <h2>Who am I?</h2>
             <p>
-             Soy Chiara, una apasionada de la cocina que encuentra inspiración en cada rincón del mundo. Mi amor por la gastronomía comenzó en casa, aprendiendo de mi mamá y mi abuela, y se ha enriquecido con experiencias en lugares como Vietnam, Tailandia, México, Australia y Europa. Aunque soy argentina, crecí en Alemania y siempre he estado en movimiento, absorbiendo las técnicas y sabores de las cocinas locales allá donde voy.
+            I’m Chiara, a passionate cook who finds inspiration in every corner of the world. My love for gastronomy began at home, learning from my mom and grandmother, and it has been enriched by experiences in places like Vietnam, Thailand, Mexico, Australia, and Europe. Although I’m Argentine, I grew up in Germany and have always been on the move, absorbing the techniques and flavors of local cuisines wherever I go.
             </p>
-            <p>Siempre he sentido una profunda pasión por los vegetales y por todo lo que nos brinda la naturaleza. Me encanta resaltar los sabores únicos de cada ingrediente, elevando sus cualidades y aprovechando al máximo lo que nos ofrecen. Creo en la alta calidad de los productos, la producción casera, la sencillez en los procesos y las combinaciones frescas que te inspiran a comer así todos los días.
+            <p>
+            I’ve always had a deep passion for vegetables and everything nature provides us. I love highlighting the unique flavors of each ingredient, elevating their qualities, and making the most of what they offer. I believe in high-quality products, homemade production, simplicity in processes, and fresh combinations that inspire you to eat this way every day.
             </p>
-            <p>He tenido el honor de trabajar en un restaurante con dos estrellas Michelin y de cocinar en retiros de comida vegetariana, donde descubrí mi misión: transformar la comida saludable en una experiencia deliciosa.
+            <p>
+            I’ve had the honor of working in a two-Michelin-star restaurant and cooking at vegetarian food retreats, where I discovered my mission: to turn healthy food into a delicious experience.
             </p>
-            <p>Cada plato que cocino es una oportunidad de compartir alegría, porque una buena comida siempre trae una sonrisa a las caras de mis amigos, mi familia y mis clientes. Al final, cocinar es mi lenguaje de amor. 💛
+            <p>
+            Every dish I cook is an opportunity to share joy because good food always brings a smile to the faces of my friends, family, and clients. In the end, cooking is my love language. 💛
             </p>
         </div>
 
         <div class="col-12 tab-show padded">
-            <h2>Quien soy? </h2>
+            <h2>Who am I?</h2>
             <div class=" bg-image portrait margin-b" style="background-image: url('/images/chiara.png');"></div>
             <p>
-                Soy Chiara, una apasionada de la cocina que encuentra inspiración en cada rincón del mundo. Mi amor por la gastronomía comenzó en casa, aprendiendo de mi mamá y mi abuela, y se ha enriquecido con experiencias en lugares como Vietnam, Tailandia, México, Australia y Europa. Aunque soy argentina, crecí en Alemania y siempre he estado en movimiento, absorbiendo las técnicas y sabores de las cocinas locales allá donde voy.
-               </p>
-               <p>Siempre he sentido una profunda pasión por los vegetales y por todo lo que nos brinda la naturaleza. Me encanta resaltar los sabores únicos de cada ingrediente, elevando sus cualidades y aprovechando al máximo lo que nos ofrecen. Creo en la alta calidad de los productos, la producción casera, la sencillez en los procesos y las combinaciones frescas que te inspiran a comer así todos los días.
-               </p>
-               <p>He tenido el honor de trabajar en un restaurante con dos estrellas Michelin y de cocinar en retiros de comida vegetariana, donde descubrí mi misión: transformar la comida saludable en una experiencia deliciosa.
-               </p>
-               <p>Cada plato que cocino es una oportunidad de compartir alegría, porque una buena comida siempre trae una sonrisa a las caras de mis amigos, mi familia y mis clientes. Al final, cocinar es mi lenguaje de amor. 💛
-               </p>
-        </div>
+            I’m Chiara, a passionate cook who finds inspiration in every corner of the world. My love for gastronomy began at home, learning from my mom and grandmother, and it has been enriched by experiences in places like Vietnam, Thailand, Mexico, Australia, and Europe. Although I’m Argentine, I grew up in Germany and have always been on the move, absorbing the techniques and flavors of local cuisines wherever I go.
+            </p>
+            <p>
+            I’ve always had a deep passion for vegetables and everything nature provides us. I love highlighting the unique flavors of each ingredient, elevating their qualities, and making the most of what they offer. I believe in high-quality products, homemade production, simplicity in processes, and fresh combinations that inspire you to eat this way every day.
+            </p>
+            <p>
+            I’ve had the honor of working in a two-Michelin-star restaurant and cooking at vegetarian food retreats, where I discovered my mission: to turn healthy food into a delicious experience.
+            </p>
+            <p>
+            Every dish I cook is an opportunity to share joy because good food always brings a smile to the faces of my friends, family, and clients. In the end, cooking is my love language. 💛
+            </p>
 
     </div>
 
