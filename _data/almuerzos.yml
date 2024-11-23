@@ -22,10 +22,10 @@ clasicos:
    add:
     - des: + con pechuga de pollo
       des-en: + chicken breast
-      precio: + $3.00
+      precio: +$3.00
     - des: + con brokkoli salteado 
       des-en: + with stir-fried brokkoli 
-      precio: + $2.00
+      precio: +$2.00
  - nombre: Tacos 
    nombre-en: Tacos 
    add: 
@@ -56,10 +56,10 @@ influenciaasiatica:
    add: 
     - des: + bistek
       des-en: + beef 
-      precio: + $3.00
+      precio: +$3.00
     - des:  + pechuga de pollo
       des-en: + chicken breast 
-      precio: + $3.00 
+      precio: +$3.00 
 opcionesvegetarianas: 
  - nombre: Emparedado vegetariano 
    nombre-en: Veggie sandwich
@@ -72,15 +72,15 @@ opcionesvegetarianas:
    des-en: Romana salad, tomatoes, avocado, mango, olive oil, lemon with garlic bread
    precio: $9.00
    add: 
-    - des: atún sellado y chimichurri 
-      des-en: sealed tuna & chimichurri 
-      precio: + $4.00
-    - des: camarones
-      des-en: shrimps
-      precio: + $3.00
-    - des: pechuga de pollo 
-      des-en: chicken breast 
-      precio: + $3.00   
+    - des: + atún sellado y chimichurri 
+      des-en: + sealed tuna & chimichurri 
+      precio: +$4.00
+    - des: + camarones
+      des-en: + shrimps
+      precio: +$3.00
+    - des: + pechuga de pollo 
+      des-en: + chicken breast 
+      precio: +$3.00   
 bebidas: 
  - nombre: Agua Dasani 600ml
    nombre-en: Water bottle 600ml
