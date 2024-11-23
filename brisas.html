@@ -4,8 +4,8 @@ owner_img1: /images/agata-1.JPG
 owner_img2: /images/agata-christian-1.JPG
 location_img: /images/eisdiele-2.JPG
 images:
-   header_img-1: /images/banner1.jpeg
-   header_img-2: /images/banner2.jpeg
+   header_img-1: /images/banner2.png
+   header_img-2: /images/crepe.png
    section-1_img: /images/section1.jpeg
    section-2_img: /images/section2.jpeg
 ---
@@ -21,15 +21,15 @@ images:
   <div class="col-5_md-3"></div>
   
   <div class="col-3_md-4"  >
-    <div data-aos="zoom-in" data-aos-duration="1000" class="bg-image square" style="background-image: url('{{page.images.header_img-2}}');"></div>
+    <div data-aos="zoom-in" data-aos-duration="1000" class="bg-image portrait" style="background-image: url('{{page.images.header_img-2}}');"></div>
   </div>
 
   <div class="col-9-middle_md-8 parent padded">
-    <!--<img class="main-heading child tab-hide" src="/images/logo-brisas.png" alt=""> -->
-    <h1 class="main-heading child tab-hide">BRISAS. </h1>
+    <img class="main-heading child tab-hide margin-t-1" src="/images/brisas-logo.png" alt=""> 
+    <!-- <h1 class="main-heading child tab-hide">BRISAS. </h1> -->
 
     <div >
-        <h1 class=" main-heading tab-show">Brisas.</h1>
+        <img class="main-mob child tab-show margin-t-1" src="/images/brisas-logo.png" alt=""> 
 
         <span class="subtitle">saludable. delicioso. fresco.</span>
     
@@ -43,7 +43,9 @@ images:
             <br>
             Descubre combinaciones únicas, ingredientes de alta calidad y opciones pensadas para todos los gustos. Porque comer rico y saludable es algo que puedes disfrutar todos los días. 
         </p>        
-    <a href="#menu">&#8640; menu.</a>
+    <a href="#desayunos">&#8640; desayunos.</a> <br>
+    <a href="#almuerzos">&#8640; almuerzos.</a>
+
     </div>
 
   </div>
@@ -95,13 +97,13 @@ images:
 </section> -->
 
 <!-- BREAKFAST Section -->
-<section id="menu" class="padded menu grid-center" >
+<section id="desayunos" class="padded menu grid-center" >
   <div class="col-12 center" >
       <span class="subtitle">Ya se te hizo agua en la boca?</span>
       <div id="typed-strings-4">
         <h2> Nuestro menu de desayunos. </h2>
     </div>      
-      <p class="capped-width padded-r padded-l">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ipsum nulla vel delectus cupiditate at architecto necessitatibus corporis recusandae ut neque id quae dolorum, maxime dolores eaque debitis dolor quod?</p>
+      <!-- <p class="capped-width padded-r padded-l">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ipsum nulla vel delectus cupiditate at architecto necessitatibus corporis recusandae ut neque id quae dolorum, maxime dolores eaque debitis dolor quod?</p> -->
   </div>
   <!-- First column  -->
   <div class="col-4_lg-6_sm-12 padded-2">
@@ -184,13 +186,13 @@ images:
 </section>
 
 <!-- LUNCH Section -->
-<section id="menu" class="padded menu grid-center" >
+<section id="almuerzos" class="padded menu grid-center" >
     <div class="col-12 center" >
         <span class="subtitle">Ya se te hizo agua en la boca?</span>
         <div id="typed-strings-4">
           <h2> Nuestro menu de almuerzos. </h2>
       </div>      
-        <p class="capped-width padded-r padded-l">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ipsum nulla vel delectus cupiditate at architecto necessitatibus corporis recusandae ut neque id quae dolorum, maxime dolores eaque debitis dolor quod?</p>
+        <!-- <p class="capped-width padded-r padded-l">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ipsum nulla vel delectus cupiditate at architecto necessitatibus corporis recusandae ut neque id quae dolorum, maxime dolores eaque debitis dolor quod?</p> -->
     </div>
     <!-- First column  -->
     <div class="col-4_lg-6_sm-12 padded-2">
@@ -294,10 +296,10 @@ images:
 <!-- about me -->
 <section class="padded">
     <div class = "grid">
-        <div class="col-3_sm-12">
+        <div class="col-3 tab-hide">
             <div class=" bg-image portrait" style="background-image: url('/images/chiara.png');"></div>
         </div>
-        <div class="col-9-center_sm-12 padded-r padded-l">
+        <div class="col-9-center_sm-12 padded-r padded-l tab-hide">
             <h2>Quien soy? </h2>
             <p>
              Soy Chiara, una apasionada de la cocina que encuentra inspiración en cada rincón del mundo. Mi amor por la gastronomía comenzó en casa, aprendiendo de mi mamá y mi abuela, y se ha enriquecido con experiencias en lugares como Vietnam, Tailandia, México, Australia y Europa. Aunque soy argentina, crecí en Alemania y siempre he estado en movimiento, absorbiendo las técnicas y sabores de las cocinas locales allá donde voy.
@@ -308,6 +310,20 @@ images:
             </p>
             <p>Cada plato que cocino es una oportunidad de compartir alegría, porque una buena comida siempre trae una sonrisa a las caras de mis amigos, mi familia y mis clientes. Al final, cocinar es mi lenguaje de amor. 💛
             </p>
+        </div>
+
+        <div class="col-12 tab-show padded">
+            <h2>Quien soy? </h2>
+            <div class=" bg-image portrait margin-b" style="background-image: url('/images/chiara.png');"></div>
+            <p>
+                Soy Chiara, una apasionada de la cocina que encuentra inspiración en cada rincón del mundo. Mi amor por la gastronomía comenzó en casa, aprendiendo de mi mamá y mi abuela, y se ha enriquecido con experiencias en lugares como Vietnam, Tailandia, México, Australia y Europa. Aunque soy argentina, crecí en Alemania y siempre he estado en movimiento, absorbiendo las técnicas y sabores de las cocinas locales allá donde voy.
+               </p>
+               <p>Siempre he sentido una profunda pasión por los vegetales y por todo lo que nos brinda la naturaleza. Me encanta resaltar los sabores únicos de cada ingrediente, elevando sus cualidades y aprovechando al máximo lo que nos ofrecen. Creo en la alta calidad de los productos, la producción casera, la sencillez en los procesos y las combinaciones frescas que te inspiran a comer así todos los días.
+               </p>
+               <p>He tenido el honor de trabajar en un restaurante con dos estrellas Michelin y de cocinar en retiros de comida vegetariana, donde descubrí mi misión: transformar la comida saludable en una experiencia deliciosa.
+               </p>
+               <p>Cada plato que cocino es una oportunidad de compartir alegría, porque una buena comida siempre trae una sonrisa a las caras de mis amigos, mi familia y mis clientes. Al final, cocinar es mi lenguaje de amor. 💛
+               </p>
         </div>
 
     </div>

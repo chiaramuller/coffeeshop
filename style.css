@@ -154,7 +154,7 @@ section{
 /* Typography */
 html, body{
     font-family: 'Poppins', sans-serif;
-    color: rgb(60,60,60);
+    color: #474942;
     background-color: hsl(28, 17%, 77%);
 
 }
@@ -169,12 +169,18 @@ h1{
     font-size: 5rem;
     letter-spacing: 0.01em;
 }
-h4{ text-transform: uppercase;
+h2, h3, h4{ text-transform: uppercase;
     font-family: 'Roboto Mono', sans-serif;
+    font-family: 'Yeseva One', serif;
 }
 .main-heading{
-    top: -200px;
-    left: -50px;
+    top: -150px;
+    left: -110px;
+    max-width: 700px;
+}
+.main-mob{
+    top: -80px;
+    left: -60px;
 }
 
 h2{
@@ -288,16 +294,16 @@ header.onscroll{
     background-color: rgba(255, 255, 255, 0.3);
     transition: .5s;
 }
-#logo{ max-width: 90px;}
-#logo.onscroll{
+#logo{ max-width: 130px;}
+/* #logo.onscroll{
     display: none;
-}
-#logo-heading{
+} */
+/* #logo-heading{
     display: none;
 }
 #logo-heading.onscroll{
     display: block;    
-}
+} */
 
 .hamburger-button{
     max-width: 3rem;
@@ -452,7 +458,7 @@ iframe{ width: 100%; }
     h1{ font-size: 2.5rem;}
     h2{ 
         font-size: 1.5rem;
-        min-height: 4rem;
+        min-height: 5.5rem;
         margin-bottom: 0;
     }
     .main-heading{

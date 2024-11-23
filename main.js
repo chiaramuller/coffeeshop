@@ -36,8 +36,8 @@ $(window).scroll(function () {
  	}
     else {
         $('header').addClass("onscroll");
-		$('#logo').addClass("onscroll");
-        $('#logo-heading').addClass("onscroll");
+		// $('#logo').addClass("onscroll");
+        // $('#logo-heading').addClass("onscroll");
 		$('.hamburger-button').addClass("onscroll");
     }
 
