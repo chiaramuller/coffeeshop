@@ -350,7 +350,14 @@ footer .logo{
 .logo{
     padding-top: 2px;
 }
-
+.ref{
+        display: block;
+        margin: 0.75rem;
+        text-align: center;
+        border: 1px solid;
+        padding: 0.5rem 2rem;
+        border-radius: 10px;
+}
 /* Menu */
 span.price{
     line-height: 1.6rem;
