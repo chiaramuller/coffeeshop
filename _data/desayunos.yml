@@ -1,0 +1,77 @@
+desayunos:
+ - nombre: El panameño 
+   des: Hojaldra, bistek, huevo frito, queso
+   precio: $ 8.00
+ - nombre: Avo-Toast
+   des: Pan casero, aguacate, tomate, queso fresco, huevo frito, aceite de oliva
+   precio: $ 8.00
+ - nombre: Smoothiebowl
+   des: Smoothie bowl, granola, fruta fresca, mantequilla de maní
+   precio: $ 8.00
+ - nombre: El especial
+   des: Pan casero, queso crema, cebolla morada, queso mozzarella, 2 huevos fritos, espinaca, aceite de oliva
+   precio: $ 8.00
+ - nombre: El saludable
+   des: Yoghurt griego, fruta fresca, granola de la casa, chia, miel 
+   precio: $ 7.00
+ - nombre: Huevos al gusto 
+   des: Pan casero, 3 huevos revueltos o fritos, queso crema
+   precio: $ 5.00
+ - nombre: Crêpe - pancake francés 
+   des: Dulce - Nutella & banana <br>Salado - Jamon, queso & tomate
+   precio: $ 5.00
+ - nombre: Pancakes americanos
+   des: Dulce - Fruta fresca, almendras y sirope <brYSalado - Huevo revuelto y bacon 
+   precio: $ 5.00
+ - nombre: Extras
+   des: Mantequilla, jamón, queso, huevo, pan, aguacate, queso crema, hojaldra, bacon
+   precio: $ 1.00 
+extras:
+ - nombre: Dulce de zanahoria
+   precio: $ 3.00
+ - nombre: Fruta fresca
+   precio: $ 3.00
+bebidascalientes: 
+ - nombre: Espresso
+   precio: $ 2.00
+ - nombre: Espressio dopio
+   precio: $ 3.00
+ - nombre: Americano
+   precio: $ 2.50
+ - nombre: Cappuccino 
+   precio: $ 3.00
+ - nombre: Cappuccino grande
+   precio: $ 3.50
+ - nombre: Latte macchiato 
+   precio: $ 3.50
+ - nombre: Espresso macchiato
+   precio: $ 2.50
+ - nombre: Chocolatada
+   precio: $ 3.00
+ - nombre: Moccaccino
+   precio: $ 4.00
+ - nombre: Té 
+   precio: $ 2.00
+ - nombre: + leche vegana
+   precio: +$ 0.50
+ - nombre: + sirope (avellana, vainilla, caramelo)
+   precio: +$ 0.50
+especialidadesfrias:
+ - nombre: Iced coffee/frappé de café
+   precio: $ 4.00
+ - nombre: Frappé de café con chocolate/avellana/vainilla/chocolate 
+   precio: $ 4.50 
+ - nombre: Pipa/Coco frío
+   precio: $ 3.00
+ - nombre: Jugo de naranja/mango/manzana 
+   precio: $ 2.00
+smoothies: 
+ - nombre: Detox
+   des: espinaca, apio, piña, gengibre
+   precio: $ 5.00
+ - nombre: Berry power
+   des: Frutos rojos, banana, chia
+   precio: $ 5.00
+ - nombre: Mix you own (leche o agua)
+   des: Frutas de tu elección - banana, frutos rojos, piña, papaya, maracuya 
+   precio: $ 4.00

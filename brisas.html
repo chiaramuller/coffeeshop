@@ -38,8 +38,12 @@ images:
         </div>
         <h2 id="typed"></h2>
     
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque placeat nihil libero, assumenda quaerat officia, at obcaecati et, excepturi saepe dolore dignissimos id porro in soluta sapiente possimus ut a? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quae, laboriosam aliquid accusantium voluptatem aspernatur rerum quisquam odio hic ad, sint earum corrupti eum dolor, libero consequuntur architecto voluptates aliquam sit.</p>
-        <a href="#menu">&#8640; menu.</a>
+        <p>
+            En Brisas, creemos en el poder de los alimentos frescos, balanceados y llenos de sabor, diseñados para hacerte sentir bien cada día. Nuestra misión es ofrecerte platos que no solo nutran tu cuerpo, sino que también llenen tu alma de alegría.
+            <br>
+            Descubre combinaciones únicas, ingredientes de alta calidad y opciones pensadas para todos los gustos. Porque comer rico y saludable es algo que puedes disfrutar todos los días. 
+        </p>        
+    <a href="#menu">&#8640; menu.</a>
     </div>
 
   </div>
@@ -90,133 +94,227 @@ images:
 
 </section> -->
 
-<!-- Menu Section -->
+<!-- BREAKFAST Section -->
 <section id="menu" class="padded menu grid-center" >
   <div class="col-12 center" >
       <span class="subtitle">Ya se te hizo agua en la boca?</span>
       <div id="typed-strings-4">
         <h2> Nuestro menu de desayunos. </h2>
-    </div>
-    <h2 id="typed-4"></h2>
-      
+    </div>      
       <p class="capped-width padded-r padded-l">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ipsum nulla vel delectus cupiditate at architecto necessitatibus corporis recusandae ut neque id quae dolorum, maxime dolores eaque debitis dolor quod?</p>
   </div>
   <!-- First column  -->
   <div class="col-4_lg-6_sm-12 padded-2">
       <h3> Desayunos. </h3>
       <div class="grid">
-          <div class="col-10 editable">
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
+      {% for item in site.data.desayunos.desayunos %}
+          <div class="col-10-middle editable">
+              <h4>{{item.nombre}}</h4>
+              <p> {{item.des}} </p>
           </div>
-          <div class="col-2 right editable">
-              <span class="price">$20</span>
+          <div class="col-2-middle right editable">
+              <span class="price">{{item.precio}}</span>
           </div>
-          <div class="col-10 editable">
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
-          </div>
-          <div class="col-2 right editable">
-              <span class="price">$20 </span>
-          </div>
-          <div class="col-10 editable">
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
-          </div>
-          <div class="col-2  right editable">
-              <span class="price">$20 </span>
-          </div>
-          <div class="col-10 editable">
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
-          </div>
-          <div class="col-2 right editable">
-              <span class="price">$20 </span>
-          </div>
+      {% endfor %}
+
+      {% for item in site.data.desayunos.extras %}
+      <div class="col-10-middle editable">
+        <h4>{{item.nombre}}</h4>
       </div>
-      <h3> tapas. </h3>
-      <div class="grid">
-          <div class="col-10 editable">
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
-          </div>
-          <div class="col-2 right editable">
-              <span class="price">$20 </span>
-          </div>
-          <div class="col-10 editable">
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
-          </div>
-          <div class="col-2 right editable">
-              <span class="price">$20 </span>
-          </div>
-          <div class="col-10 editable">
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
-          </div>
-          <div class="col-2 right editable">
-              <span class="price">$20 </span>
-          </div>
-          <div class="col-10 editable">
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
-          </div>
-          <div class="col-2 right editable">
-              <span class="price">$20 </span>
-          </div>
+      <div class="col-2-middle right editable">
+        <span class="price">{{item.precio}}</span>
       </div>
+      {% endfor %}
+    </div>
+
   </div>
 
   <!-- Second column  -->
   <div class="col-4_lg-6_sm-12 padded-2 mob-padded-t-0">
-      <h3> classics. </h3>
-      <div class="grid">
-          <div class="col-10 editable">
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
-          </div>
-          <div class="col-2 right editable">
-              <span class="price">$20 </span>
-          </div>
-          <div class="col-10 editable">
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
-          </div>
-          <div class="col-2 right editable">
-              <span class="price">$20 </span>
-          </div>
-          <div class="col-10 editable">
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
-          </div>
-          <div class="col-2  right editable">
-              <span class="price">$20 </span>
-          </div>
+      <h3> Bebidas calientes. </h3>
+      <div class="grid padded-b">
+        {% for item in site.data.desayunos.bebidascalientes %} 
+            <div class="col-10">
+                <span> {{item.nombre}} </span>
+             </div>
+              <div class="col-2 right ">
+                  <span class="price ">{{item.precio}}</span>
+              </div>
+       {% endfor %}
       </div>
-      <h3> negronis. </h3>
-      <div class="grid">
-          <div class="col-10 editable">
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
-          </div>
-          <div class="col-2 right editable">
-              <span class="price">$20 </span>
-          </div>
-          <div class="col-10 editable">
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
-          </div>
-          <div class="col-2 right editable">
-              <span class="price">$20 </span>
-          </div>
+      <h3> Especialidades frías. </h3>
+      <div class="grid padded-b">
+        {% for item in site.data.desayunos.especialidadesfrias %} 
+            <div class="col-10-middle padded-b-1">
+              <span> {{item.nombre}} </span>
+            </div>
+            <div class="col-2 right ">
+                <span class="price">{{item.precio}}</span>
+            </div>
+        {% endfor %}
       </div>
-          <h3> signature. </h3>
-          <div class="grid">
-              <div class="col-10 editable">
-                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
-              </div>
-              <div class="col-2 right editable">
-                  <span class="price">$20 </span>
-              </div>
-              <div class="col-10 editable">
-                  <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id consequuntur sequi qui. Accusantium at excepturi. </p>
-              </div>
-              <div class="col-2 right editable">
-                  <span class="price">$20 </span>
-              </div>
+
+      <h3> Smoothies. </h3>
+      <div class="grid-middle">
+        {% for item in site.data.desayunos.smoothies %} 
+            <div class="col-10-middle">
+              <h4> {{item.nombre}} </h4>
+              <p> {{item.des}}</p>
+            </div>
+            <div class="col-2-middle right ">
+                <span class="price">{{item.precio}}</span>
+            </div>
+        {% endfor %}
+      </div>
+
+      <div class="grid border-thick padded">
+        <h3>El local</h3>
+         <div class=" col-10-middle">
+            <h4>Combo dulce</h4>
+            <p>Dulce de zanahoria + café de tu elección</p>
+            <h4>Combo salada</h4>
+            <span>Tostado de jamón, queso y tomate + café de tu elección</span>
+
+         </div>
+         <div class="col-2-middle right">
+            <span class="precio">$ 5.00</span>
+         </div>
       </div>
   </div>
 </section>
 
+<!-- LUNCH Section -->
+<section id="menu" class="padded menu grid-center" >
+    <div class="col-12 center" >
+        <span class="subtitle">Ya se te hizo agua en la boca?</span>
+        <div id="typed-strings-4">
+          <h2> Nuestro menu de almuerzos. </h2>
+      </div>      
+        <p class="capped-width padded-r padded-l">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, ipsum nulla vel delectus cupiditate at architecto necessitatibus corporis recusandae ut neque id quae dolorum, maxime dolores eaque debitis dolor quod?</p>
+    </div>
+    <!-- First column  -->
+    <div class="col-4_lg-6_sm-12 padded-2">
+        <h3> Clásicos. </h3>
+        {% for item in site.data.almuerzos.clasicos %}
+        <div class="grid margin-b">
+            <div class="col-10-middle">
+                <h4>{{item.nombre}}</h4>
+                <span> {{item.des}} </span>
+            </div>
+            <div class="col-2-middle right">
+                <span class="price">{{item.precio}}</span>
+            </div>
+
+            {% for add in item.add %}
+                <div class="col-10-middle">
+                    <span>{{add.des}}</span>
+                </div>
+                <div class="col-2-middle right">
+                    <span class="price">{{add.precio}}</span>
+                </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+
+        <h3>Influencia asiatica</h3>
+        {% for item in site.data.almuerzos.influenciaasiatica %}
+        <div class="grid margin-b">
+            <div class="col-10-middle">
+                <h4>{{item.nombre}}</h4>
+                <span> {{item.des}} </span>
+            </div>
+            <div class="col-2-middle right">
+                <span class="price">{{item.precio}}</span>
+            </div>
+
+            {% for add in item.add %}
+                <div class="col-10-middle">
+                    <span>{{add.des}}</span>
+                </div>
+                <div class="col-2-middle right">
+                    <span class="price">{{add.precio}}</span>
+                </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+
+    </div>
+  
+    <!-- Second column  -->
+    <div class="col-4_lg-6_sm-12 padded-2 mob-padded-t-0">
+        <h3> Opciones vegetarianas y saludables. </h3>
+        {% for item in site.data.almuerzos.opcionesvegetarianas %}
+        <div class="grid margin-b">
+            <div class="col-10-middle">
+                <h4>{{item.nombre}}</h4>
+                <span> {{item.des}} </span>
+            </div>
+            <div class="col-2-middle right">
+                <span class="price">{{item.precio}}</span>
+            </div>
+
+            {% for add in item.add %}
+                <div class="col-10-middle">
+                    <span>{{add.des}}</span>
+                </div>
+                <div class="col-2-middle right">
+                    <span class="price">{{add.precio}}</span>
+                </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+
+        <h3> Bebidas. </h3>
+        <div class="grid padded-b">
+          {% for item in site.data.almuerzos.bebidas %} 
+              <div class="col-10">
+                  <span> {{item.nombre}} </span>
+               </div>
+                <div class="col-2 right ">
+                    <span class="price ">{{item.precio}}</span>
+                </div>
+         {% endfor %}
+        </div>
+  
+        <h3> Smoothies. </h3>
+        <div class="grid-middle">
+          {% for item in site.data.desayunos.smoothies %} 
+              <div class="col-10-middle">
+                <h4> {{item.nombre}} </h4>
+                <p> {{item.des}}</p>
+              </div>
+              <div class="col-2-middle right ">
+                  <span class="price">{{item.precio}}</span>
+              </div>
+          {% endfor %}
+        </div>
+    </div>
+  </section>
+
+<!-- about me -->
+<section class="padded">
+    <div class = "grid">
+        <div class="col-3_sm-12">
+            <div class=" bg-image portrait" style="background-image: url('/images/chiara.png');"></div>
+        </div>
+        <div class="col-9-center_sm-12 padded-r padded-l">
+            <h2>Quien soy? </h2>
+            <p>
+             Soy Chiara, una apasionada de la cocina que encuentra inspiración en cada rincón del mundo. Mi amor por la gastronomía comenzó en casa, aprendiendo de mi mamá y mi abuela, y se ha enriquecido con experiencias en lugares como Vietnam, Tailandia, México, Australia y Europa. Aunque soy argentina, crecí en Alemania y siempre he estado en movimiento, absorbiendo las técnicas y sabores de las cocinas locales allá donde voy.
+            </p>
+            <p>Siempre he sentido una profunda pasión por los vegetales y por todo lo que nos brinda la naturaleza. Me encanta resaltar los sabores únicos de cada ingrediente, elevando sus cualidades y aprovechando al máximo lo que nos ofrecen. Creo en la alta calidad de los productos, la producción casera, la sencillez en los procesos y las combinaciones frescas que te inspiran a comer así todos los días.
+            </p>
+            <p>He tenido el honor de trabajar en un restaurante con dos estrellas Michelin y de cocinar en retiros de comida vegetariana, donde descubrí mi misión: transformar la comida saludable en una experiencia deliciosa.
+            </p>
+            <p>Cada plato que cocino es una oportunidad de compartir alegría, porque una buena comida siempre trae una sonrisa a las caras de mis amigos, mi familia y mis clientes. Al final, cocinar es mi lenguaje de amor. 💛
+            </p>
+        </div>
+
+    </div>
+
+</section>
 <!--Quote Section-->
-<section class="padded parent grid big-text white-text border-b">
+<!-- <section class="padded parent grid big-text white-text border-b">
 
 <div class="video-container">
     <video id="background-video" autoplay loop muted poster="coffee-video.mp4">
@@ -230,4 +328,4 @@ images:
     <span id="typed-5"></span>
 </div>
 
-</section>
+</section> -->

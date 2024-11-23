@@ -103,6 +103,7 @@ section{
 .border-t {  border-top: 0.5px solid; }
 .border   {  border: 0.5px solid; }
 .border-n {  border: none; }
+.border-thick { border: 2px solid;}
 
 /*Minimum height classes*/
 .tall-30{min-height: 30vh;}
@@ -183,7 +184,7 @@ h2{
 }
 
 p{
-    line-height: 1.6rem;
+    line-height: 1.5rem;
     font-weight: 300;
     margin-bottom: 1.5rem;
 
@@ -359,9 +360,12 @@ footer .logo{
         border-radius: 10px;
 }
 /* Menu */
-span.price{
-    line-height: 1.6rem;
+span{
+    font-weight: 300;
+    line-height: 1.5rem;
+    padding-bottom: 1.7rem
 }
+
 
 /* Quote */
 #background-video {

@@ -1,0 +1,72 @@
+clasicos:
+ - nombre: Milanesa argentina
+   des: Milanesa de carne de res, purée de papas y ensalada
+   precio: $ 12.00
+ - nombre: Filete de costillon 
+   des: Filete de carne a la plancha con papas fritas o tajadas, ensaladita y chimi churri
+   precio: $ 12.00
+ - nombre: Hamburguesa
+   des: Hamburguesa de - CARNE con bacon/ATUN con chimi/Pechuga de POLLO - en pan casero con lechuga, tomate acompañada con tajadas o papitas fritas
+   precio: $ 10.00
+ - nombre: Pasta alfredo con parmesano 
+   des: penne con una salsita casera de crema, parmesano y pan de ajo
+   precio: $ 7.00
+   add:
+    - des: + con pechuga de pollo
+      precio: + $ 3.00
+    - des: + con brokkoli salteado 
+      precio: + $ 2.00
+ - nombre: Tacos 
+   add: 
+    - des: de pollo con queso 
+      precio: $ 11.00
+    - des: de camarones
+      precio: $ 12.00
+    - des: vegetarianos (cebolla morada, huevo, espinaca)
+      precio: $ 11.00
+influenciaasiatica:
+ - nombre: Poke bowl 
+   des: Arroz blanco, atún fresco, pepino, aguacate, mango y verduras salteadas con una salsa de gingibre, miel y soja  
+   precio: $ 9.00
+   add: 
+    - des: + atún fresco 
+      precio: $ 3.00
+ - nombre: Pad sew ew (thai rice noodles)
+   des: Pasta de arroz tailandesa con bistek, huevo, vegetales salteados y ajonjolí
+   precio: $ 9.00
+   add: 
+    - des: + bistek
+      precio: + $ 3.00
+    - des:  + pechuga de pollo
+      precio: + $ 3.00   
+opcionesvegetarianas: 
+ - nombre: Emparedado vegetariano 
+   des: Ciabatta casera, cebolla, queso muzzarella, tomate, huevo frito, espinaca y chimichurri con papitas fritas o patacones
+   precio: $ 9.00
+ - nombre: Ensalada de la casa
+   des: Lechuga romana, tomates, aguacate, mango, aceite de oliva, limón con pan de ajo
+   precio: $ 9.00
+   add: 
+    - des: atún sellado y chimichurri 
+      precio: + $ 4.00
+    - des: camarones
+      precio: + $ 3.00
+    - des: pechuga de pollo 
+      precio: + $ 3.00   
+bebidas: 
+ - nombre: Agua Dasani 600ml
+   precio: $ 1.00
+ - nombre: Agua Dasani 1L 
+   precio: $ 2.00
+ - nombre: Sodas (Coca Cola, Fanta, Sprite, Fresca, Ginger Ale, Tonic Water, Agua con Gas)
+   precio: $ 2.00
+ - nombre: Chichas (Piña, Papaya, Maracuya)
+   precio: $ 2.50
+ - nombre: Limonada/Limonada de Pepimón 
+   precio: $ 3.00
+ - nombre: Cerveza Panamá
+   precio: $ 2.00
+ - nombre: Cerveza Heineken
+   precio: $ 3.00
+ - nombre: Agua de Pipa
+   precio: $ 3.00
