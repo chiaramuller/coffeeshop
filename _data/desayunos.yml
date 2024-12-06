@@ -92,8 +92,11 @@ especialidadesfrias:
  - nombre: Iced coffee/frappé de café
    nombre-en: Iced coffee/frappé
    precio: $4.00
- - nombre: Frappé de café con chocolate/avellana/vainilla/salty caramel 
-   nombre-en: Frappé with coffee and chocolate/hazelnut/vanilla/salty caramel 
+ - nombre: Frappé de café con chocolate/chocolate blanco/vainilla/salty caramel 
+   nombre-en: Frappé with coffee and chocolate/white chocolate/hazelnut/vanilla/salty caramel/caramel 
+   precio: $4.50 
+ - nombre: Chai Frappé 
+   nombre-en: Chai Frappé
    precio: $4.50 
  - nombre: Pipa/Coco frío
    nombre-en: Cold coconut
@@ -107,6 +110,9 @@ smoothies:
    des: Espinaca, apio, piña, gengibre
    des-en: Spinach, sellery, pineapple, ginger
    precio: $5.00
+ - nombre: Booster de antioxidantes
+   nombre-en: Antioxidant booster
+   des: Remolacha, Zanahoria,  
  - nombre: Berry power
    nombre-en: Berry power
    des: Frutos rojos, banana, chia
