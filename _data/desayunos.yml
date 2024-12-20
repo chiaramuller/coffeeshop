@@ -92,11 +92,11 @@ especialidadesfrias:
  - nombre: Iced coffee/frappé de café
    nombre-en: Iced coffee/frappé
    precio: $4.00
- - nombre: Frappé de café con chocolate/chocolate blanco/vainilla/salty caramel 
-   nombre-en: Frappé with coffee and chocolate/white chocolate/hazelnut/vanilla/salty caramel/caramel 
+ - nombre: Frappé de café moccha/chocolate blanco/avellana/vainilla/salty caramel 
+   nombre-en: Frappé with coffee moccha/white chocolate/hazelnut/vanilla/salty caramel/caramel 
    precio: $4.50 
- - nombre: Chai Frappé 
-   nombre-en: Chai Frappé
+ - nombre: Dirty Chai Frappé 
+   nombre-en: Dirty Chai Frappé
    precio: $4.50 
  - nombre: Pipa/Coco frío
    nombre-en: Cold coconut
@@ -104,6 +104,18 @@ especialidadesfrias:
  - nombre: Jugo de naranja/mango/manzana 
    nombre-en: Orange juice/apple juice/mango juice
    precio: $2.00
+Frappes:
+ - nombre: Simple - solo café  
+   nombre-en: plain - just coffee 
+ - nombre: Chai 
+   nombre-en: Chai
+ - nombre: Chocolate amargo
+   nombre-en: Dark chocolate 
+ - nombre: Caramelo salado 
+   nombre-en: Salty caramel 
+ - nombre: Chocolate blanco
+   nombre-en: White chocolate 
+
 smoothies: 
  - nombre: Detox
    nombre-en: Detox 
