@@ -41,9 +41,14 @@ desayunos:
    precio: $5.00
  - nombre: Extras
    nombre-en: Extras 
-   des: Mantequilla, jamón, queso, huevo, pan, aguacate, queso crema, hojaldra, bacon
-   des-en: Butter, ham, cheese, egg, bread, avocado, cream cheese, hojaldra, bacon 
+   des: Mantequilla, jamón, queso, huevo, pan, queso crema, hojaldra
+   des-en: Butter, ham, cheese, egg, bread, cream cheese, hojaldra 
    precio: $1.00 
+ - NOMBRE: Extras premium 
+   nombre- en: Extras premium 
+   des: Aguacate, bacon 
+   des-en: Avocado, bacon 
+   precio: $ 2.00
 extras:
  - nombre: Dulce de zanahoria (vegano)
    nombre-en: Carrot cake (vegan)
@@ -69,13 +74,19 @@ bebidascalientes:
    precio: $3.50
  - nombre: Latte macchiato 
    nombre-en: Latte macchiato 
-   precio: $3.50
+   precio: $3.00
  - nombre: Espresso macchiato
    nombre-en: Espresso macciato
    precio: $2.50
  - nombre: Chocolatada
    nombre-en: Hot chocolate
    precio: $3.00
+ - nombre: Chai latte
+   nombre-en: Chai latte 
+   precio: $ 4.00 
+ - nombre: Dirty Chai (Chai + Espresso)
+   nombre-en: Dirty Chai (Chai + Espresso)
+   precio: $ 4.50 
  - nombre: Moccaccino
    nombre-en: Moccaccino
    precio: $4.00
@@ -87,7 +98,7 @@ bebidascalientes:
    precio: +$0.50
  - nombre: + sirope (avellana, vainilla, caramelo)
    nombre-en: + sirup (hazelnut, vanilla, caramel)
-   precio: +$0.50
+   precio: +$0.60
 especialidadesfrias:
  - nombre: Iced coffee/frappé de café
    nombre-en: Iced coffee/frappé
@@ -115,7 +126,6 @@ Frappes:
    nombre-en: Salty caramel 
  - nombre: Chocolate blanco
    nombre-en: White chocolate 
-
 smoothies: 
  - nombre: Detox
    nombre-en: Detox 
