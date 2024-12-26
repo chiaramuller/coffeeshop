@@ -48,7 +48,7 @@ desayunos:
    nombre- en: Extras premium 
    des: Aguacate, bacon 
    des-en: Avocado, bacon 
-   precio: $ 2.00
+   precio: $ 2.50
 extras:
  - nombre: Dulce de zanahoria (vegano)
    nombre-en: Carrot cake (vegan)
@@ -134,7 +134,9 @@ smoothies:
    precio: $5.00
  - nombre: Booster de antioxidantes
    nombre-en: Antioxidant booster
-   des: Remolacha, Zanahoria,  
+   des: Remolacha, Zanahoria, Manzana, Gengibre, Lemon
+   des-en: Beetroot, Carrot, Aplle, Ginger, Lemon 
+   precio: $ 5.00
  - nombre: Berry power
    nombre-en: Berry power
    des: Frutos rojos, banana, chia
