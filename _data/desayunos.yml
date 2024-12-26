@@ -1,16 +1,16 @@
 desayunos:
- - nombre: El panameño 
-   nombre-en: The panamenian 
+ - nombre: El panameño (opt GF)
+   nombre-en: The panamenian (GF possible)
    des: Hojaldra, bistek, huevo frito, queso
    des-en: Local fried bread, beef with vegetables, fried egg & cheese
    precio: $8.00
- - nombre: Avo-Toast
-   nombre-en: Avo-Toast
+ - nombre: Avo-Toast (opt vegano)
+   nombre-en: Avo-Toast (vegan possible)
    des: Pan casero, aguacate, tomate, queso fresco, huevo frito, aceite de oliva
    des-en: Homemade bread, avocado, tomato, fresh cheese, fried egg, olive oil 
    precio: $8.00
- - nombre: Smoothiebowl
-   nombre-en: Smoothiebowl
+ - nombre: Smoothiebowl (vegano)
+   nombre-en: Smoothiebowl (vegan)
    des: Smoothie bowl, granola de la casa, fruta fresca, mantequilla de maní, chia
    des-en: Frozen smoothie bowl, homemade granola, fresh fruit, peanut butter, chia
    precio: $8.00
@@ -38,7 +38,7 @@ desayunos:
    nombre-en: American pancakes 
    des: Dulce - Fruta fresca, almendras y sirope <br>Salado - Huevo revuelto y bacon 
    des-en: Sweet - Fresh fruit, toasted almonds & sirup <br>Salty - Scrambled eggs & bacon 
-   precio: $5.00
+   precio: $6.00
  - nombre: Extras
    nombre-en: Extras 
    des: Mantequilla, jamón, queso, huevo, pan, queso crema, hojaldra
