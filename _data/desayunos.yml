@@ -8,32 +8,32 @@ desayunos:
    nombre-en: Avo-Toast (vegan possible)
    des: Pan casero, aguacate, tomate, queso fresco, huevo frito, aceite de oliva
    des-en: Homemade bread, avocado, tomato, fresh cheese, fried egg, olive oil 
-   precio: $8.00
+   precio: $9.00
  - nombre: Smoothiebowl (vegano)
    nombre-en: Smoothiebowl (vegan)
    des: Smoothie bowl, granola de la casa, fruta fresca, mantequilla de maní, chia
    des-en: Frozen smoothie bowl, homemade granola, fresh fruit, peanut butter, chia
-   precio: $8.00
+   precio: $9.00
  - nombre: El especial
    nombre-en: The special one 
    des: Pan casero, queso crema, cebolla morada, queso, 2 huevos fritos, espinaca, aceite de oliva
    des-en: Homemade bread, cream cheese, red onion, cheese, 2 fried eggs, spinach, olive oil 
-   precio: $8.00
+   precio: $9.00
  - nombre: El saludable
    nombre-en: The healthy one
    des: Yoghurt griego, fruta fresca, granola de la casa, chia, miel 
    des-en: Greek yoghurt, fresh fruit, homemade granola, chia, honey 
-   precio: $7.00
+   precio: $8.00
  - nombre: Huevos al gusto 
    nombre-en: Eggs your choice
    des: Pan casero, 3 huevos revueltos o fritos, queso crema o mantequilla 
    des-en: Homemade bread, 3 scrambled or fried eggs, cream cheese or butter 
-   precio: $5.00
+   precio: $6.00
  - nombre: Crêpe - pancake francés 
    nombre-en: Crêpe - french pancake 
    des: Dulce - Nutella & banana <br>Salado - Jamon, queso & tomate
    des: Sweet - Nutella 6 banana <br>Salty - Ham, cheese & tomato 
-   precio: $5.00
+   precio: $6.00
  - nombre: Pancakes americanos
    nombre-en: American pancakes 
    des: Dulce - Fruta fresca, almendras y sirope <br>Salado - Huevo revuelto y bacon 
@@ -43,7 +43,7 @@ desayunos:
    nombre-en: Extras 
    des: Mantequilla, jamón, queso, huevo, pan, queso crema, hojaldra
    des-en: Butter, ham, cheese, egg, bread, cream cheese, hojaldra 
-   precio: $1.00 
+   precio: $1.50 
  - NOMBRE: Extras premium 
    nombre- en: Extras premium 
    des: Aguacate, bacon 
@@ -109,9 +109,9 @@ especialidadesfrias:
  - nombre: Dirty Chai Frappé 
    nombre-en: Dirty Chai Frappé
    precio: $4.50 
- - nombre: Pipa/Coco frío
-   nombre-en: Cold coconut
-   precio: $3.00
+# - nombre: Pipa/Coco frío
+#   nombre-en: Cold coconut
+#   precio: $3.00
  - nombre: Jugo de naranja/mango/manzana 
    nombre-en: Orange juice/apple juice/mango juice
    precio: $2.00
