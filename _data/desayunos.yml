@@ -3,17 +3,17 @@ desayunos:
    nombre-en: The panamenian (GF possible)
    des: Hojaldra, bistek, huevo frito, queso
    des-en: Local fried bread, beef with vegetables, fried egg & cheese
-   precio: $8.00
+   precio: $9.00
  - nombre: Avo-Toast (opt vegano)
    nombre-en: Avo-Toast (vegan possible)
    des: Pan casero, aguacate, tomate, queso fresco, huevo frito, aceite de oliva
    des-en: Homemade bread, avocado, tomato, fresh cheese, fried egg, olive oil 
-   precio: $8.00
+   precio: $9.00
  - nombre: Smoothiebowl (vegano)
    nombre-en: Smoothiebowl (vegan)
    des: Smoothie bowl, granola de la casa, fruta fresca, mantequilla de maní, chia
    des-en: Frozen smoothie bowl, homemade granola, fresh fruit, peanut butter, chia
-   precio: $8.00
+   precio: $9.00
  - nombre: El especial
    nombre-en: The special one 
    des: Pan casero, queso crema, cebolla morada, queso, 2 huevos fritos, espinaca, aceite de oliva
@@ -23,7 +23,7 @@ desayunos:
    nombre-en: The healthy one
    des: Yoghurt griego, fruta fresca, granola de la casa, chia, miel 
    des-en: Greek yoghurt, fresh fruit, homemade granola, chia, honey 
-   precio: $7.00
+   precio: $7.50
  - nombre: Huevos al gusto 
    nombre-en: Eggs your choice
    des: Pan casero, 3 huevos revueltos o fritos, queso crema o mantequilla 
@@ -71,7 +71,7 @@ bebidascalientes:
    precio: $3.00
  - nombre: Cappuccino grande
    nombre-en: Big cappuccino
-   precio: $3.50
+   precio: $4.00
  - nombre: Latte macchiato 
    nombre-en: Latte macchiato 
    precio: $3.00
@@ -114,6 +114,9 @@ especialidadesfrias:
 #   precio: $3.00
  - nombre: Jugo de naranja/mango/manzana 
    nombre-en: Orange juice/apple juice/mango juice
+   precio: $2.00
+ - nombre: Jugo natural de pina/papaya/mango/frutos rojos
+   nombre-en: Natural juice pineapple/papaya/mango/red fruits
    precio: $2.00
 Frappes:
  - nombre: Simple - solo café  
