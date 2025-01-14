@@ -22,12 +22,12 @@ clasicos:
       precio: +$3.00   
     - des: + edamame 
       des-en: + edamame 
-      precio: + $2.50
+      precio: +$2.50
  - nombre: La poderosa (vegan opt)
    nombre-en: La poderosa 
    des: Lechuga romana, quinoa, zapallo, queso, tomate & almendras con pechuga de pollo 
    des-en: Romana lettuce, quinoa, squash, cheese, tomato & almonds with chicken breast 
-   precio: $ 11.00 
+   precio: $11.00 
  - nombre: El ChimiBurger 
    nombre-en: The ChimiBurger  
    des: Hamburguesa de res con chimichurri en pan casero con lechuga, tomate acompañada con tajadas o papitas fritas
