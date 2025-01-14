@@ -57,6 +57,15 @@ clasicos:
     - des: + vegetarianos (cebolla morada, huevo, espinaca)
       des-en: + vegetarian (red onion, egg & spinach)
       precio: $10.50
+ - nombre: Emparedado con papitas fritas 
+   nombre-en: Sandwich with french fries 
+   add:
+    - des: + de pollo
+      des-en: + chicken 
+      precio: $ 9.00
+    - des: + vegetariano con queso, espinaca y zapallo 
+      des-en: + vegetarian with squash, spinach & cheese 
+      precio: $ 9.00
 bebidas: 
  - nombre: Agua Dasani 600ml
    nombre-en: Water bottle 600ml
