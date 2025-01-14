@@ -1,86 +1,62 @@
 clasicos:
- - nombre: Milanesa argentina
-   nombre-en: Argentinian "milanesa"
-   des: Milanesa de carne de res, purée de papas y ensalada
-   des-en: Breaded beef-steak, smashed potatoes & salad
-   precio: $12.00
- - nombre: Filete de costillon
-   nombre-en: Steak de "costillon" 
-   des: Filete de carne a la plancha con papas fritas o tajadas, ensaladita y chimi churri
-   des-en: Grilled beef steak with french fries or plantain chips, salad & chimi churri (argentinian meat sauce) 
-   precio: $12.00
- - nombre: Hamburguesa
-   nombre-en: Hamburger
-   des: Hamburguesa de - CARNE con bacon/ATUN con chimi/Pechuga de POLLO - en pan casero con lechuga, tomate acompañada con tajadas o papitas fritas
-   des-en: Hamburger of your choice (meat with bacon - tuna with chimi churri - chicken breast) on homemade bread with lettuce, tomato & french fries or plantain chips 
-   precio: $10.00
- - nombre: Pasta alfredo con parmesano 
-   nombre-en: Pasta alfredo with parmesan cheese
-   des: Penne con una salsita casera de crema, parmesano y pan de ajo
-   des-en: Penne with a homemade cream sauce, parmesan & garlic bread 
-   precio: $7.00
-   add:
-    - des: + con pechuga de pollo
-      des-en: + chicken breast
-      precio: +$3.00
-    - des: + con brokkoli salteado 
-      des-en: + with stir-fried brokkoli 
-      precio: +$2.00
- - nombre: Tacos 
-   nombre-en: Tacos 
-   add: 
-    - des: de pollo con queso 
-      des-en: with chicken and cheese
-      precio: $11.00
-    - des: de camarones
-      des-en: with shrimps
-      precio: $12.00
-    - des: vegetarianos (cebolla morada, huevo, espinaca)
-      des-en: vegetarian (red onion, egg & spinach)
-      precio: $11.00
-influenciaasiatica:
- - nombre: Poke bowl 
+ - nombre: Poke bowl (vegan opt.)
    nombre-en: Poke bowl 
-   des: Arroz blanco, pepino, aguacate, mango y verduras salteadas con una salsa de gingibre, miel y soja  
-   des-en: White rice, cucumber, avocado, mango y stir-fried veggies with a ginger-honey-soy-sauce
+   des: Arroz blanco, edamame, pepino, aguacate y mango con una salsa de gingibre, miel y soja  
+   des-en: White rice, edamame, cucumber, avocado & mango with a ginger-honey-soy-sauce
    precio: $9.00
    add: 
     - des: + atún fresco 
       des-en: + fresh tuna
-      precio: + $3.00
- - nombre: Pad sew ew (thai rice noodles)
-   nombre-en: Pad sew ew (thai rice noodles)
-   des: Pasta de arroz tailandesa con bistek, huevo, vegetales salteados y ajonjolí
-   des-en: Rice noodles with beef, egg, stir-fried veggies & sesame seeds 
-   precio: $9.00
-   add: 
-    - des: + bistek
-      des-en: + beef 
-      precio: +$3.00
-    - des:  + pechuga de pollo
-      des-en: + chicken breast 
-      precio: +$3.00 
-opcionesvegetarianas: 
- - nombre: Emparedado vegetariano 
-   nombre-en: Veggie sandwich
-   des: Ciabatta casera, cebolla, queso, tomate, huevo frito, espinaca y chimichurri con papitas fritas o patacones
-   des-en: Homemade ciabatta, onion, cheese, tomato, fried egg, spinach & chimi churri with french fries or plantain chips 
-   precio: $9.00
- - nombre: Ensalada de la casa
-   nombre-en: House salad
+      precio: + $3.00 
+ - nombre: Ensalada de la casa (vegan opt)
+   nombre-en: Salad "de la casa"
    des: Lechuga romana, tomates, aguacate, mango, aceite de oliva, limón con pan de ajo
-   des-en: Romana salad, tomatoes, avocado, mango, olive oil, lemon with garlic bread
+   des-en: Romana lettuce, tomatoes, avocado, mango, olive oil, lemon with garlic bread
    precio: $9.00
    add: 
     - des: + atún sellado y chimichurri 
       des-en: + sealed tuna & chimichurri 
       precio: +$4.00
-    - des: + camarones
-      des-en: + shrimps
-      precio: +$3.00
     - des: + pechuga de pollo 
       des-en: + chicken breast 
       precio: +$3.00   
+    - des: + edamame 
+      des-en: + edamame 
+      precio: + $2.50
+ - nombre: La poderosa (vegan opt)
+   nombre-en: La poderosa 
+   des: Lechuga romana, quinoa, zapallo, queso, tomate & almendras con pechuga de pollo 
+   des-en: Romana lettuce, quinoa, squash, cheese, tomato & almonds with chicken breast 
+   precio: $ 11.00 
+ - nombre: El ChimiBurger 
+   nombre-en: The ChimiBurger  
+   des: Hamburguesa de res con chimichurri en pan casero con lechuga, tomate acompañada con tajadas o papitas fritas
+   des-en: Beef burger with chimi churri on homemade bread with lettuce, tomato & french fries or plantain chips 
+   precio: $11.00
+ - nombre: Pasta alfredo con parmesano (veggie opt)
+   nombre-en: Pasta alfredo with parmesan cheese
+   des: Penne con una salsita casera de crema, parmesano y pan de ajo
+   des-en: Penne with a homemade cream sauce, parmesan & garlic bread 
+   precio: $8.00
+   add:
+   - des: + con pechuga de pollo
+     des-en: + chicken breast
+     precio: +$3.00
+   - des: + con zapallo 
+     des-en: + with squash
+     precio: +$2.00
+ - nombre: Taquitos (4x)
+   nombre-en: Taquitos (4x)
+   add: 
+    - des: + de pollo con queso & pico de gallo 
+      des-en: + with chicken and cheese
+      precio: $10.50
+    - des: + de bistek 
+      des-en: + with beef & onion 
+      precio: $10.50
+    - des: + vegetarianos (cebolla morada, huevo, espinaca)
+      des-en: + vegetarian (red onion, egg & spinach)
+      precio: $10.50
 bebidas: 
  - nombre: Agua Dasani 600ml
    nombre-en: Water bottle 600ml
@@ -91,9 +67,9 @@ bebidas:
  - nombre: Sodas (Coca Cola, Fanta, Sprite, Fresca, Ginger Ale, Tonic Water, Agua con Gas)
    nombre-en: Sodas (Coke, Coke Zero, Fanta, Sprite, Fresca, Ginger Ale, Tonic Water, Sparkling Water)
    precio: $2.00
- - nombre: Chichas (piña, papaya, maracuya)
-   nombre-en: Natural Juice (Pineapple, papaya or maracuya)
-   precio: $2.50
+ - nombre: Chichas (piña, papaya, mango)
+   nombre-en: Natural Juice (Pineapple, papaya, mango)
+   precio: $3.00
  - nombre: Limonada/limonada de pepimón 
    mombre-en: Lemonade/Lemonade with cucumber 
    precio: $3.00
@@ -102,7 +78,4 @@ bebidas:
    precio: $2.00
  - nombre: Cerveza Heineken
    nombre-en: Beer Heineken 
-   precio: $3.00
- - nombre: Agua de Pipa
-   nombre-en: Cold coconut 
    precio: $3.00
