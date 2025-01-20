@@ -109,15 +109,15 @@ especialidadesfrias:
  - nombre: Dirty Chai Frappé 
    nombre-en: Dirty Chai Frappé
    precio: $4.50 
-# - nombre: Pipa/Coco frío
-#   nombre-en: Cold coconut
-#   precio: $3.00
+ - nombre: Pipa/Coco frío
+   nombre-en: Cold coconut
+   precio: $3.00
  - nombre: Jugo de naranja/mango/manzana 
    nombre-en: Orange juice/apple juice/mango juice
    precio: $2.00
  - nombre: Jugo natural de pina/papaya/mango/frutos rojos
    nombre-en: Natural juice pineapple/papaya/mango/red fruits
-   precio: $2.00
+   precio: $3.00
 Frappes:
  - nombre: Simple - solo café  
    nombre-en: plain - just coffee 
