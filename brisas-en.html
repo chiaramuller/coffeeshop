@@ -181,17 +181,18 @@ images:
   </div>
 </section>
 
-<!-- LUNCH Section -->
- <!--
+
+
 <section id="almuerzos" class="padded menu grid-center" >
-    <div class="col-12 center" >
+    <div class="col-8_md-12 center" >
         <span class="subtitle">Is your mouth watering yet?</span>
         <div id="typed-strings-4">
-          <h2>Our lunch menu.</h2>
+          <h2> Our lunch menu. </h2>
       </div>      
     </div>
-    <div class="col-4_lg-6_sm-12 padded-2">
-        <h3> Classics. </h3>
+
+    <div class="col-8_md-12 padded-2">
+        <h3>For every taste. </h3>
         {% for item in site.data.almuerzos.clasicos %}
         <div class="grid margin-b">
             <div class="col-10-middle_sm-9">
@@ -213,56 +214,9 @@ images:
         </div>
         {% endfor %}
 
-        <h3>Asian influence.</h3>
-        {% for item in site.data.almuerzos.influenciaasiatica %}
-        <div class="grid margin-b">
-            <div class="col-10-middle_sm-9">
-                <h4>{{item.nombre-en}}</h4>
-                <span> {{item.des-en}} </span>
-            </div>
-            <div class="col-2-middle_sm-3 right">
-                <span class="price">{{item.precio}}</span>
-            </div>
 
-            {% for add in item.add %}
-                <div class="col-10-middle_sm-9">
-                    <span>{{add.des}}</span>
-                </div>
-                <div class="col-2-middle_sm-3 right">
-                    <span class="price">{{add.precio}}</span>
-                </div>
-            {% endfor %}
-        </div>
-        {% endfor %}
 
-    </div>
--->
-  
-    <!-- Second column  -->
-    <!-- <div class="col-4_lg-6_sm-12 padded-2 mob-padded-t-0">
-        <h3> Vegetarian & healthy options. </h3>
-        {% for item in site.data.almuerzos.opcionesvegetarianas %}
-        <div class="grid margin-b">
-            <div class="col-10-middle_sm-9">
-                <h4>{{item.nombre-en}}</h4>
-                <span> {{item.des-en}} </span>
-            </div>
-            <div class="col-2-middle_sm-3 right">
-                <span class="price">{{item.precio}}</span>
-            </div>
-
-            {% for add in item.add %}
-                <div class="col-10-middle_sm-9">
-                    <span>{{add.des-en}}</span>
-                </div>
-                <div class="col-2-middle_sm-3 right">
-                    <span class="price">{{add.precio}}</span>
-                </div>
-            {% endfor %}
-        </div>
-        {% endfor %}
-
-        <h3> Drinks. </h3>
+        <h3> Bebidas. </h3>
         <div class="grid padded-b">
           {% for item in site.data.almuerzos.bebidas %} 
               <div class="col-10_sm-9">
@@ -287,7 +241,7 @@ images:
           {% endfor %}
         </div>
     </div>
-  </section> -->
+  </section> 
 
 <!-- about me -->
 <section class="padded">
