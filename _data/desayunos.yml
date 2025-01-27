@@ -137,8 +137,8 @@ smoothies:
    precio: $5.00
  - nombre: Booster de antioxidantes
    nombre-en: Antioxidant booster
-   des: Remolacha, Zanahoria, Manzana, Gengibre, Lemon
-   des-en: Beetroot, Carrot, Aplle, Ginger, Lemon 
+   des: Remolacha, Zanahoria, Gengibre, Lemon
+   des-en: Beetroot, Carrot, Ginger, Lemon 
    precio: $ 5.00
  - nombre: Berry power
    nombre-en: Berry power
