@@ -1,12 +1,12 @@
 clasicos:
  - nombre: Poke bowl (vegan opt.)
    nombre-en: Poke bowl 
-   des: Arroz blanco, atún crudo, edamame, pepino, aguacate y mango con una salsa de gingibre, miel y soja  
-   des-en: White rice, fresh raw tuna, edamame, cucumber, avocado & mango with a ginger-honey-soy-sauce
+   des: Arroz blanco, atún crudo, edamame, pepino, aguacate y pina/mango con una salsa de gingibre, miel y soja  
+   des-en: White rice, fresh raw tuna, edamame, cucumber, avocado & pineapple/mango with a ginger-honey-soy-sauce
    precio: $13.50
  - nombre: Ensalada de la casa (vegan opt)
    nombre-en: Salad "de la casa"
-   des: Lechuga romana, tomates, aguacate, mango, aceite de oliva, limón con pan de ajo
+   des: Lechuga romana, tomates, aguacate, pineapple/mango, aceite de oliva, limón con pan de ajo
    des-en: Romana lettuce, tomatoes, avocado, mango, olive oil, lemon with garlic bread
    precio: $9.00
    add: 
