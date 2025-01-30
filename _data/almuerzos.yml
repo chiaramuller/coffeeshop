@@ -63,8 +63,8 @@ clasicos:
     - des: + de pollo
       des-en: + chicken 
       precio: $9.00
-    - des: + vegetariano con queso, espinaca y zapallo 
-      des-en: + vegetarian with squash, spinach & cheese 
+    - des: + vegetariano con queso, espinaca, cebolla y zapallo 
+      des-en: + vegetarian with squash, spinach, cebolla & cheese 
       precio: $9.00
 bebidas: 
  - nombre: Agua Dasani 600ml
