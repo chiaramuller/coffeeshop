@@ -19,11 +19,11 @@ desayunos:
    des: Pan casero, queso crema, cebolla morada, queso, 2 huevos fritos, espinaca, aceite de oliva
    des-en: Homemade bread, cream cheese, red onion, cheese, 2 fried eggs, spinach, olive oil 
    precio: $9.00
-# - nombre: El saludable
-#   nombre-en: The healthy one
-#   des: Yoghurt griego, fruta fresca, granola de la casa, chia, miel 
-#   des-en: Greek yoghurt, fresh fruit, homemade granola, chia, honey 
-#   precio: $7.50
+ - nombre: El saludable
+   nombre-en: The healthy one
+   des: Yoghurt griego, fruta fresca, granola de la casa, chia, miel 
+   des-en: Greek yoghurt, fresh fruit, homemade granola, chia, honey 
+   precio: $8.00
  - nombre: Huevos al gusto 
    nombre-en: Eggs your choice
    des: Pan casero, 3 huevos revueltos o fritos, queso crema o mantequilla 
