@@ -26,12 +26,21 @@ clasicos:
    precio: $11.00 
  - nombre: El ChimiBurger 
    nombre-en: The ChimiBurger  
-   des: Hamburguesa de res con chimichurri en pan casero con lechuga, tomate acompañada con tajadas o papitas fritas
-   des-en: Beef burger with chimi churri on homemade bread with lettuce, tomato & french fries or plantain chips 
+   des: Hamburguesa de res con chimichurri en pan casero con lechuga, cebolla morada, tomate acompañada con papitas fritas
+   des-en: Beef burger with chimi churri on homemade bread with lettuce, red onion, tomato & french fries 
    precio: $11.00
    add: 
     - des: + bacon / + queso
       des-en: + bacon / + cheese
+      price: + $1.50
+ - nombre: El ChimiBurger VEGGIE
+   nombre-en: The ChimiBurger VEGGIE
+   des: Hamburguesa de queso con chimichurri en pan casero con lechuga, cebolla morada, tomate acompañada con papitas fritas
+   des-en: Beef burger with chimi churri on homemade bread with lettuce, redo onion, tomato & french fries 
+   precio: $11.00
+   add: 
+    - des: + bacon
+      des-en: + bacon 
       price: + $1.50
  - nombre: Pasta alfredo con parmesano (veggie opt)
    nombre-en: Pasta alfredo with parmesan cheese

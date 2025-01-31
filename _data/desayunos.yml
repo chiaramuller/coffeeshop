@@ -80,7 +80,7 @@ bebidascalientes:
    precio: $2.50
  - nombre: Chocolatada
    nombre-en: Hot chocolate
-   precio: $3.00
+   precio: $3.50
  - nombre: Chai latte
    nombre-en: Chai latte 
    precio: $ 4.00 
@@ -95,7 +95,7 @@ bebidascalientes:
    precio: $4.00
  - nombre: Té 
    nombre-en: Tea
-   precio: $2.00
+   precio: $2.50
  - nombre: + leche vegana
    nombre-en: + vegan milk 
    precio: +$0.60
