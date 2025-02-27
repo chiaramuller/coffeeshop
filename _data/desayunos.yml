@@ -3,12 +3,12 @@ desayunos:
    nombre-en: The panamenian (GF possible)
    des: Hojaldra, bistek, huevo frito, queso
    des-en: Local fried bread, beef with vegetables, fried egg & cheese
-   precio: $8.00
+   precio: $9.00
  - nombre: Avo-Toast (opt vegano)
    nombre-en: Avo-Toast (vegan possible)
    des: Pan casero, aguacate, tomate, queso fresco, huevo frito, aceite de oliva
    des-en: Homemade bread, avocado, tomato, fresh cheese, fried egg, olive oil 
-   precio: $8.00
+   precio: $9.00
  - nombre: Smoothiebowl (vegano)
    nombre-en: Smoothiebowl (vegan)
    des: Smoothie bowl, granola de la casa, fruta fresca, mantequilla de maní, chia
