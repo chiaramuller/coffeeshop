@@ -1,29 +1,16 @@
-clasicos:
- - nombre: Poke bowl (vegan opt.)
-   nombre-en: Poke bowl 
-   des: Arroz blanco, atún crudo, edamame, pepino, aguacate y pina/mango con una salsa de gingibre, miel y soja  
-   des-en: White rice, fresh raw tuna, edamame, cucumber, avocado & pineapple/mango with a ginger-honey-soy-sauce
-   precio: $13.50
- - nombre: Ensalada de la casa (vegan opt)
-   nombre-en: Salad "de la casa"
-   des: Lechuga romana, tomates, aguacate, pineapple/mango, aceite de oliva, limón con pan de ajo
-   des-en: Romana lettuce, tomatoes, avocado, mango, olive oil, lemon with garlic bread
+picaditas y entraditas: 
+ - nombre: Camarones al ajillo con pancito casero 
+   nombre-en: Garlic shrimps with homemade bread  
    precio: $9.00
-   add: 
-    - des: + atún sellado y chimichurri 
-      des-en: + sealed tuna & chimichurri 
-      precio: +$4.00
-    - des: + pechuga de pollo 
-      des-en: + chicken breast 
-      precio: +$3.00   
-    - des: + edamame 
-      des-en: + edamame 
-      precio: +$2.50
- - nombre: La poderosa (vegan opt)
-   nombre-en: La poderosa 
-   des: Lechuga romana, quinoa, zapallo, queso, tomate & almendras con pechuga de pollo 
-   des-en: Romana lettuce, quinoa, squash, cheese, tomato & almonds with chicken breast 
-   precio: $11.00 
+ - nombre: Papitas fritas o tajaditas de plátano chino  
+   nombre-en: French fries or plantain chips of "plátano chino"
+   precio: $4.00
+ - nombre: Espinaca, queso gratinado, cebolla caramelizada y nuez , con pancito casero  
+   nombre-en: Spinach with gratinated cheese, caramelized onions and walnut, with homemade bread
+   precio: $8.00     
+ - nombre: Totopos de Tartar de Atún, queso crema, pepino y ajonjoli 
+
+clasicos:
  - nombre: El ChimiBurger 
    nombre-en: The ChimiBurger  
    des: Hamburguesa de res con chimichurri en pan casero con lechuga, cebolla morada, tomate acompañada con papitas fritas
@@ -54,6 +41,12 @@ clasicos:
    - des: + con zapallo 
      des-en: + with squash
      precio: +$2.00
+ - nombre: Curry de Coco y lentejas (vegan) con arroz y nan 
+   nombre-en: Coconut and lentil curry (vegan) with rice and nan 
+   precio: $12.00
+ - nombre: Atún sellado con chimichurri de culantro, purée de zapallo y javas
+   nombre-en: Seared tuna with culantro-chimichurri, smashed pumpkin & java beans 
+   precio: $17.00 
  - nombre: Taquitos (3x)
    nombre-en: Taquitos (3x)
    add: 
@@ -66,15 +59,26 @@ clasicos:
     - des: + vegetarianos (cebolla morada, huevo, espinaca)
       des-en: + vegetarian (red onion, egg & spinach)
       precio: $10.50
- - nombre: Emparedado con papitas fritas 
-   nombre-en: Sandwich with french fries 
-   add:
-    - des: + de pollo
-      des-en: + chicken 
-      precio: $9.00
-    - des: + vegetariano con queso, espinaca, cebolla y zapallo 
-      des-en: + vegetarian with squash, spinach, cebolla & cheese 
-      precio: $9.00
+ - nombre: Ensalada de la casa (vegan opt)
+   nombre-en: Salad "de la casa"
+   des: Lechuga romana, tomates, aguacate, pineapple/mango, aceite de oliva, limón con pan de ajo
+   des-en: Romana lettuce, tomatoes, avocado, mango, olive oil, lemon with garlic bread
+   precio: $9.00
+   add: 
+    - des: + atún sellado y chimichurri 
+      des-en: + sealed tuna & chimichurri 
+      precio: +$4.00
+    - des: + pechuga de pollo 
+      des-en: + chicken breast 
+      precio: +$3.00   
+    - des: + edamame 
+      des-en: + edamame 
+      precio: +$2.50
+postres: 
+ - nombre: (N)ICE Cream de chocolate con salty caramel (vegan) y almendra 
+   nombre-en: Chocolate NICE cream with salty caramel 
+   precio: $5.00
+ - nombre: Cheesecake deconstruido de M
 bebidas: 
  - nombre: Agua Dasani 600ml
    nombre-en: Water bottle 600ml
@@ -97,3 +101,10 @@ bebidas:
  - nombre: Cerveza Heineken
    nombre-en: Beer Heineken 
    precio: $3.50
+ - nombre: Cuba Libre
+   nombre-en: Cuba Libre
+   precio: $7.00
+ - nombre: Vodka Tonic
+   nombre-en: Vodka Tonic
+   precio: $7.00
+ 

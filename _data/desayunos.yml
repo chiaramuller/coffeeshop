@@ -19,26 +19,26 @@ desayunos:
    des: Pan casero, queso crema, cebolla morada, queso, 2 huevos fritos, espinaca, aceite de oliva
    des-en: Homemade bread, cream cheese, red onion, cheese, 2 fried eggs, spinach, olive oil 
    precio: $9.00
- - nombre: El saludable
-   nombre-en: The healthy one
-   des: Yoghurt griego, fruta fresca, granola de la casa, chia, miel 
-   des-en: Greek yoghurt, fresh fruit, homemade granola, chia, honey 
-   precio: $8.00
- - nombre: Huevos al gusto 
+# - nombre: El saludable
+#   nombre-en: The healthy one
+#   des: Yoghurt griego, fruta fresca, granola de la casa, chia, miel 
+#   des-en: Greek yoghurt, fresh fruit, homemade granola, chia, honey 
+#   precio: $8.00
+ - nombre: Huevitos revueltos o fritos 
    nombre-en: Eggs your choice
    des: Pan casero, 3 huevos revueltos o fritos, queso crema o mantequilla 
    des-en: Homemade bread, 3 scrambled or fried eggs, cream cheese or butter 
-   precio: $5.00
+   precio: $6.00
  - nombre: Crêpe - pancake francés 
    nombre-en: Crêpe - french pancake 
    des: Dulce - Nutella & banana <br>Salado - Jamon, queso & tomate
-   des: Sweet - Nutella 6 banana <br>Salty - Ham, cheese & tomato 
+   des-en: Sweet - Nutella & banana <br>Salty - Ham, cheese & tomato 
    precio: $6.00
  - nombre: Pancakes americanos
    nombre-en: American pancakes 
    des: Dulce - Fruta fresca, almendras y sirope <br>Salado - Huevo revuelto y bacon 
    des-en: Sweet - Fresh fruit, toasted almonds & sirup <br>Salty - Scrambled eggs & bacon 
-   precio: $6.00
+   precio: $7.00
  - nombre: Extras
    nombre-en: Extras 
    des: Mantequilla, jamón, queso, huevo, pan, queso crema, hojaldra
@@ -52,6 +52,12 @@ desayunos:
 extras:
  - nombre: Dulce de zanahoria (vegano)
    nombre-en: Carrot cake (vegan)
+   precio: $3.00
+ - nombre: Alfajor de maizena y Dulce de Leche 
+   nombre: Alfajor de mazena y dulce de leche 
+   precio: $2.50
+ - nombre: Barra "Snickers" casera 
+   nombre-en: Homemade Snickers bar
    precio: $3.00
  - nombre: Fruta fresca
    nombre-en: Fresh fruit 
