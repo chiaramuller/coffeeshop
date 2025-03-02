@@ -1,34 +1,33 @@
-picaditas y entraditas: 
- - nombre: Camarones al ajillo con pancito casero 
-   nombre-en: Garlic shrimps with homemade bread  
+picaditasentraditas: 
+ - nombre: Camarones al ajillo
+   nombre-en: Garlic shrimps  
+   des: 6 Camarones con ajo y aceite de oliva con tostditas de pan casero
+   des-en: 6 shrimps in garlic and olive oil with toasted homemade bread
    precio: $9.00
  - nombre: Papitas fritas o tajaditas de plátano chino  
    nombre-en: French fries or plantain chips of "plátano chino"
    precio: $4.00
- - nombre: Espinaca, queso gratinado, cebolla caramelizada y nuez , con pancito casero  
+ - nombre: Queso Gratinado 
+   nombre-en: Gratinated Cheese
+   des: Queso gratinado sobre espinaca fresca con cebolla caramelizada y nuez , con tostadita casera  
    nombre-en: Spinach with gratinated cheese, caramelized onions and walnut, with homemade bread
    precio: $8.00     
- - nombre: Totopos de Tartar de Atún, queso crema, pepino y ajonjoli 
-
+ - nombre: Sushi-Bites 
+   des: Pepino con Tartar de Atún, queso crema, y ajonjoli 
+   nombre-en: Sushi-Bites 
+   des-en: Cucumber with fresh tuna tarta, cream cheese & sesame 
+   precio: $9.00
 clasicos:
  - nombre: El ChimiBurger 
    nombre-en: The ChimiBurger  
    des: Hamburguesa de res con chimichurri en pan casero con lechuga, cebolla morada, tomate acompañada con papitas fritas
    des-en: Beef burger with chimi churri on homemade bread with lettuce, red onion, tomato & french fries 
    precio: $11.00
-   add: 
-    - des: + bacon / + queso
-      des-en: + bacon / + cheese
-      price: + $1.50
  - nombre: El ChimiBurger VEGGIE
    nombre-en: The ChimiBurger VEGGIE
    des: Hamburguesa de queso con chimichurri en pan casero con lechuga, cebolla morada, tomate acompañada con papitas fritas
    des-en: Beef burger with chimi churri on homemade bread with lettuce, redo onion, tomato & french fries 
    precio: $11.00
-   add: 
-    - des: + bacon
-      des-en: + bacon 
-      price: + $1.50
  - nombre: Pasta alfredo con parmesano (veggie opt)
    nombre-en: Pasta alfredo with parmesan cheese
    des: Penne con una salsita casera de crema & parmesano 
@@ -44,21 +43,11 @@ clasicos:
  - nombre: Curry de Coco y lentejas (vegan) con arroz y nan 
    nombre-en: Coconut and lentil curry (vegan) with rice and nan 
    precio: $12.00
- - nombre: Atún sellado con chimichurri de culantro, purée de zapallo y javas
-   nombre-en: Seared tuna with culantro-chimichurri, smashed pumpkin & java beans 
-   precio: $17.00 
- - nombre: Taquitos (3x)
-   nombre-en: Taquitos (3x)
-   add: 
-    - des: + de pollo con queso & pico de gallo 
-      des-en: + with chicken and cheese
-      precio: $10.50
-    - des: + de bistek & cebolla 
-      des-en: + with beef & onion 
-      precio: $10.50
-    - des: + vegetarianos (cebolla morada, huevo, espinaca)
-      des-en: + vegetarian (red onion, egg & spinach)
-      precio: $10.50
+ - nombre: Atún fresco
+   des: Atún sellado con chimichurri de culantro, purée de zapallo y nueces
+   des-en: Seared tuna with culantro-chimichurri, smashed pumpkin & walnuts 
+   nombre-en: Fresh tuna  
+   precio: $15.00 
  - nombre: Ensalada de la casa (vegan opt)
    nombre-en: Salad "de la casa"
    des: Lechuga romana, tomates, aguacate, pineapple/mango, aceite de oliva, limón con pan de ajo
@@ -78,7 +67,8 @@ postres:
  - nombre: (N)ICE Cream de chocolate con salty caramel (vegan) y almendra 
    nombre-en: Chocolate NICE cream with salty caramel 
    precio: $5.00
- - nombre: Cheesecake deconstruido de M
+ - nombre: Cheesecake deconstruido con Mango y Almendra 
+   nombre-en: Deconstructed cheesecake with Mango and Almonds 
 bebidas: 
  - nombre: Agua Dasani 600ml
    nombre-en: Water bottle 600ml

@@ -85,6 +85,9 @@ bebidas:
  - nombre: Sodas (Coca Cola, Fanta, Sprite, Fresca, Ginger Ale, Tonic Water, Agua con Gas)
    nombre-en: Sodas (Coke, Coke Zero, Fanta, Sprite, Fresca, Ginger Ale, Tonic Water, Sparkling Water)
    precio: $2.00
+ - nombre: Jugos "del Valle" - Mango, Manzana, Piña/Naranja 
+   nombre-en: Juices "del Valle" - Mango, Apple or Pineapple/Mandarina
+   precio: $ 2.00
  - nombre: Chichas (piña, papaya, mango)
    nombre-en: Natural Juice (Pineapple, papaya, mango)
    precio: $3.00
@@ -93,7 +96,7 @@ bebidas:
 #   precio: $3.00
  - nombre: Cerveza Panamá
    nombre-en: Beer Panamá
-   precio: $3.00
+   precio: $2.50
  - nombre: Cerveza Heineken
    nombre-en: Beer Heineken 
    precio: $3.50

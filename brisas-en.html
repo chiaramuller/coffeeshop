@@ -40,7 +40,8 @@ images:
             Discover unique combinations, high-quality ingredients, and options crafted for every taste. Because eating delicious and healthy meals is something you can enjoy every single day.  
         </p>      
     <a href="#desayunos">&#8640; breakfast.</a> <br>
-    <a href="#almuerzos">&#8640; lunch.</a> 
+    <a href="#almuerzos">&#8640; lunch.</a> <br>
+    <a href="#cenas">&#8640; dinner.</a> 
 
     </div>
 
@@ -239,6 +240,74 @@ images:
                   <span class="price">{{item.precio}}</span>
               </div>
           {% endfor %}
+        </div>
+    </div>
+  </section> 
+
+<!-- CENAS-->
+<section id="cenas" class="padded menu grid-center" >
+    <div class="col-8_md-12 center" >
+        <span class="subtitle">Ya se te hizo agua en la boca?</span>
+        <div id="typed-strings-4">
+          <h2> Our dinner menu. </h2>
+      </div>      
+    </div>
+
+    <div class="col-8_md-12 padded-2">
+        <h3>To Share. </h3>
+        {% for item in site.data.cenas.picaditasentraditas %}
+        <div class="grid margin-b">
+            <div class="col-10-middle_sm-9">
+                <h4>{{item.nombre-en}}</h4>
+                <span> {{item.des-en}} </span>
+            </div>
+            <div class="col-2-middle_sm-3 right">
+                <span class="price">{{item.precio}}</span>
+            </div>
+
+            {% for add in item.add %}
+                <div class="col-10-middle_sm-9">
+                    <span>{{add.des}}</span>
+                </div>
+                <div class="col-2-middle_sm-3 right">
+                    <span class="price">{{add.precio}}</span>
+                </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+
+        <h3>Our Main Dishes. </h3>
+        {% for item in site.data.cenas.clasicos %}
+        <div class="grid margin-b">
+            <div class="col-10-middle_sm-9">
+                <h4>{{item.nombre-en}}</h4>
+                <span> {{item.des-en}} </span>
+            </div>
+            <div class="col-2-middle_sm-3 right">
+                <span class="price">{{item.precio}}</span>
+            </div>
+
+            {% for add in item.add %}
+                <div class="col-10-middle_sm-9">
+                    <span>{{add.des-en}}</span>
+                </div>
+                <div class="col-2-middle_sm-3 right">
+                    <span class="price">{{add.precio}}</span>
+                </div>
+            {% endfor %}
+        </div>
+        {% endfor %}
+
+        <h3> Bebidas. </h3>
+        <div class="grid padded-b">
+          {% for item in site.data.cenas.bebidas %} 
+              <div class="col-10_sm-9">
+                  <span> {{item.nombre-en}} </span>
+               </div>
+                <div class="col-2_sm-3 right ">
+                    <span class="price ">{{item.precio}}</span>
+                </div>
+         {% endfor %}
         </div>
     </div>
   </section> 
