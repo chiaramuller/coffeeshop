@@ -156,7 +156,7 @@ html, body{
     font-family: 'Poppins', sans-serif;
     color: #474942;
     background-color: hsl(28, 17%, 77%);
-
+    background-color: hsl(28, 33%, 96%); 
 }
 
 h1,h2,h3,h5,h6{
@@ -187,6 +187,7 @@ h2{
     min-height: 3rem;
     font-size: 2rem;
     color: white;
+    color: #E7B3CE;
 }
 
 p{
