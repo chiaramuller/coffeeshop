@@ -36,8 +36,8 @@ desayunos:
    precio: $6.00
  - nombre: Pancakes americanos
    nombre-en: American pancakes 
-   des: Dulce - Fruta fresca, almendras y sirope <br>Salado - Huevo revuelto y bacon 
-   des-en: Sweet - Fresh fruit, toasted almonds & sirup <br>Salty - Scrambled eggs & bacon 
+   des: Clásico - Sirope, Mantequilla, Almendra tostada <br>Fruta - Fruta fresca, almendras y sirope <br>Salado - Huevo revuelto y bacon 
+   des-en: Classic - Sirop, Butter, Toasted almond <br>Fruity - Fresh fruit, toasted almonds & sirup <br>Salty - Scrambled eggs & bacon 
    precio: $7.00
  - nombre: Extras
    nombre-en: Extras 
