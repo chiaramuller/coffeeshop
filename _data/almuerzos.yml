@@ -19,62 +19,46 @@ clasicos:
     - des: + edamame 
       des-en: + edamame 
       precio: +$2.50
- - nombre: La poderosa (vegan opt)
+ - nombre: La poderosa
    nombre-en: La poderosa 
    des: Lechuga romana, quinoa, zapallo, queso, tomate & almendras con pechuga de pollo 
    des-en: Romana lettuce, quinoa, squash, cheese, tomato & almonds with chicken breast 
    precio: $11.00 
- - nombre: El ChimiBurger 
+ - nombre: El ChimiBurger // Chimiburger VEGGIE
    nombre-en: The ChimiBurger  
-   des: Hamburguesa de res con chimichurri en pan casero con lechuga, cebolla morada, tomate acompañada con papitas fritas
-   des-en: Beef burger with chimi churri on homemade bread with lettuce, red onion, tomato & french fries 
-   precio: $11.00
+   des: Hamburguesa de res/queso caramelizado con chimichurri en pan brioche con queso amarillo, lechuga, cebolla morada, tomate acompañada con papitas fritas
+   des-en: Beef burger with chimi churri on brioche with yellow cheese, lettuce, red onion, tomato & french fries 
+   precio: $12.00
    add: 
-    - des: + bacon / + queso
-      des-en: + bacon / + cheese
-      price: + $1.50
- - nombre: El ChimiBurger VEGGIE
-   nombre-en: The ChimiBurger VEGGIE
-   des: Hamburguesa de queso con chimichurri en pan casero con lechuga, cebolla morada, tomate acompañada con papitas fritas
-   des-en: Beef burger with chimi churri on homemade bread with lettuce, redo onion, tomato & french fries 
-   precio: $11.00
-   add: 
-    - des: + bacon
+    - des: + bacon 
       des-en: + bacon 
       price: + $1.50
- - nombre: Pasta alfredo con parmesano (veggie opt)
-   nombre-en: Pasta alfredo with parmesan cheese
-   des: Penne con una salsita casera de crema & parmesano 
-   des-en: Penne with a homemade cream sauce & parmesan
-   precio: $8.00
+ - nombre: Hamburguesa de Pollo
+   nombre-en: ChickenBurger 
+   des: Hamburguesa de pollo con coleslaw en pan brioche con mayonesa de la casa acompañada con papitas fritas
+   des-en: Chicken Burger with coleslaw on homemade brioche with our house-mayo & french fries 
+   precio: $12.00
+ - nombre: Pasta Lover 
+   nombre-en: Pasta Lover
    add:
-   - des: + con pechuga de pollo
-     des-en: + chicken breast
-     precio: +$3.00
-   - des: + con zapallo 
-     des-en: + with squash
-     precio: +$2.00
+   - des: Pasta Alfredo con Pechuga de Pollo y Quesito Parmesano
+     des-en: Pasta Alfredo with Chicken Breast & freshly grated Parmesan Cheese
+     precio: $11.00
+   - des: Penne a la Bolognesa y Quesito Parmesano 
+     des-en: Penne a la Bolognese with freshly grated Parmesan Cheese
+     precio: $10.00
  - nombre: Taquitos (3x)
    nombre-en: Taquitos (3x)
    add: 
     - des: + de pollo con queso & pico de gallo 
-      des-en: + with chicken and cheese
-      precio: $10.50
+      des-en: + with chicken and cheese & pico de gallo 
+      precio: $11.00
     - des: + de bistek & cebolla 
       des-en: + with beef & onion 
-      precio: $10.50
-    - des: + vegetarianos (cebolla morada, huevo, espinaca)
-      des-en: + vegetarian (red onion, egg & spinach)
-      precio: $10.50
- - nombre: Emparedado con papitas fritas 
-   nombre-en: Sandwich with french fries 
-   add:
-    - des: + de pollo
-      des-en: + chicken 
-      precio: $9.00
-    - des: + vegetariano con queso, espinaca, cebolla y zapallo 
-      des-en: + vegetarian with squash, spinach, cebolla & cheese 
-      precio: $9.00
+      precio: $11.00
+    - des: + vegetarianos (queso, cebolla morada, huevo, espinaca)
+      des-en: + vegetarian (cheese, red onion, egg & spinach)
+      precio: $11.00
 bebidas: 
  - nombre: Agua Dasani 600ml
    nombre-en: Water bottle 600ml
@@ -82,14 +66,11 @@ bebidas:
  - nombre: Agua Dasani 1L 
    nombre-en: Water bottle 1l
    precio: $2.00
- - nombre: Sodas (Coca Cola, Fanta, Sprite, Fresca, Ginger Ale, Tonic Water, Agua con Gas)
-   nombre-en: Sodas (Coke, Coke Zero, Fanta, Sprite, Fresca, Ginger Ale, Tonic Water, Sparkling Water)
+ - nombre: Sodas/Juice (Coca Cola, Fanta, Sprite, Fresca, Ginger Ale, Tonic Water, Agua con Gas)
+   nombre-en: Sodas/Juice (Coke, Coke Zero, Fanta, Sprite, Fresca, Ginger Ale, Tonic Water, Sparkling Water)
    precio: $2.00
- - nombre: Jugos "del Valle" - Mango, Manzana, Piña/Naranja 
-   nombre-en: Juices "del Valle" - Mango, Apple or Pineapple/Mandarina
-   precio: $ 2.00
- - nombre: Chichas (piña, papaya, mango)
-   nombre-en: Natural Juice (Pineapple, papaya, mango)
+ - nombre: Chichas (piña, papaya, mango, fresa)
+   nombre-en: Natural Juice (Pineapple, papaya, mango, strawberry)
    precio: $3.00
 # - nombre: Limonada/limonada de pepimón 
 #   mombre-en: Lemonade/Lemonade with cucumber 
@@ -99,4 +80,4 @@ bebidas:
    precio: $2.50
  - nombre: Cerveza Heineken
    nombre-en: Beer Heineken 
-   precio: $3.50
+   precio: $3.00

@@ -43,7 +43,7 @@ desayunos:
    nombre-en: Extras 
    des: Mantequilla, jamón, queso, huevo, pan, queso crema, hojaldra
    des-en: Butter, ham, cheese, egg, bread, cream cheese, hojaldra 
-   precio: $1.00 
+   precio: $1.50 
  - NOMBRE: Extras premium 
    nombre- en: Extras premium 
    des: Aguacate, bacon 
@@ -52,13 +52,7 @@ desayunos:
 extras:
  - nombre: Dulce de zanahoria (vegano)
    nombre-en: Carrot cake (vegan)
-   precio: $3.00
- - nombre: Alfajor de maizena y Dulce de Leche 
-   nombre: Alfajor de mazena y dulce de leche 
-   precio: $2.50
- - nombre: Barra "Snickers" casera 
-   nombre-en: Homemade Snickers bar
-   precio: $3.00
+   precio: $3.00   
  - nombre: Fruta fresca
    nombre-en: Fresh fruit 
    precio: $3.00
@@ -80,16 +74,16 @@ bebidascalientes:
    precio: $4.00
  - nombre: Latte macchiato 
    nombre-en: Latte macchiato 
-   precio: $3.00
+   precio: $4.00
  - nombre: Espresso macchiato
    nombre-en: Espresso macciato
    precio: $2.50
  - nombre: Chocolatada
    nombre-en: Hot chocolate
-   precio: $3.50
+   precio: $4.00
  - nombre: Chai latte
    nombre-en: Chai latte 
-   precio: $ 4.00 
+   precio: $ 4.50 
  - nombre: Dirty Chai (Chai + Espresso)
    nombre-en: Dirty Chai (Chai + Espresso)
    precio: $ 4.50 
@@ -98,7 +92,7 @@ bebidascalientes:
    precio: $ 4.50
  - nombre: Moccaccino
    nombre-en: Moccaccino
-   precio: $4.00
+   precio: $4.50
  - nombre: Té 
    nombre-en: Tea
    precio: $2.50
