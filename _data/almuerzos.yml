@@ -50,14 +50,14 @@ clasicos:
  - nombre: Taquitos (3x)
    nombre-en: Taquitos (3x)
    add: 
-    - des: + de pollo con queso & pico de gallo 
-      des-en: + with chicken and cheese & pico de gallo 
+    - des: Taquitos de pollo con queso & pico de gallo 
+      des-en: Taquitos with chicken, cheese & pico de gallo 
       precio: $11.00
     - des: + de bistek & cebolla 
       des-en: + with beef & onion 
       precio: $11.00
-    - des: + vegetarianos (queso, cebolla morada, huevo, espinaca)
-      des-en: + vegetarian (cheese, red onion, egg & spinach)
+    - des: Taquitos vegetarianos (queso, cebolla morada, huevo, espinaca)
+      des-en: Veggie-Tacos (cheese, red onion, egg & spinach)
       precio: $11.00
 bebidas: 
  - nombre: Agua Dasani 600ml
@@ -72,9 +72,6 @@ bebidas:
  - nombre: Chichas (piña, papaya, mango, fresa)
    nombre-en: Natural Juice (Pineapple, papaya, mango, strawberry)
    precio: $3.00
-# - nombre: Limonada/limonada de pepimón 
-#   mombre-en: Lemonade/Lemonade with cucumber 
-#   precio: $3.00
  - nombre: Cerveza Panamá
    nombre-en: Beer Panamá
    precio: $2.50
