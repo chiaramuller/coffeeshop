@@ -38,7 +38,7 @@ desayunos:
    nombre-en: American pancakes 
    des: Clásico - Sirope, Mantequilla, Almendra tostada <br>Fruta - Fruta fresca, almendras y sirope <br>Salado - Huevo revuelto y bacon 
    des-en: Classic - Sirop, Butter, Toasted almond <br>Fruity - Fresh fruit, toasted almonds & sirup <br>Salty - Scrambled eggs & bacon 
-   precio: $7.00
+   precio: $8.00
  - nombre: Extras
    nombre-en: Extras 
    des: Mantequilla, jamón, queso, huevo, pan, queso crema, hojaldra
@@ -71,7 +71,7 @@ bebidascalientes:
    precio: $3.00
  - nombre: Cappuccino grande
    nombre-en: Big cappuccino
-   precio: $4.00
+   precio: $4.50
  - nombre: Latte macchiato 
    nombre-en: Latte macchiato 
    precio: $4.00
@@ -105,7 +105,7 @@ bebidascalientes:
 especialidadesfrias:
  - nombre: Iced coffee/frappé de café
    nombre-en: Iced coffee/frappé
-   precio: $4.00
+   precio: $4.50
  - nombre: Iced Matcha Latte
    nombre-en: Iced Matcha Latte
    precio: $4.50
