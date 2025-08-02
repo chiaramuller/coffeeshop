@@ -15,7 +15,7 @@ desayunos:
    des-en: Frozen smoothie bowl, homemade granola, fresh fruit, peanut butter, chia
    precio: $9.00
  - nombre: El especial
-   nombre-en: The special one 
+   nombre-en: El especial 
    des: Pan casero, queso crema, cebolla morada, queso, 2 huevos fritos, espinaca, aceite de oliva
    des-en: Homemade bread, cream cheese, red onion, cheese, 2 fried eggs, spinach, olive oil 
    precio: $9.00
@@ -25,12 +25,12 @@ desayunos:
    des-en: Homemade bread, cream cheese, fresh raw tuna, avocado & sesame 
    precio: $11.00  
  - nombre: El saludable
-   nombre-en: The healthy one
+   nombre-en: El saludable
    des: Yoghurt griego, fruta fresca, granola de la casa, chia, miel 
    des-en: Greek yoghurt, fresh fruit, homemade granola, chia, honey 
    precio: $8.00
- - nombre: Huevitos revueltos o fritos 
-   nombre-en: Eggs your choice
+ - nombre: Huevitos revueltos o Fritos 
+   nombre-en: Huevitos revueltos o Fritos
    des: Pan casero, 3 huevos revueltos o fritos, queso crema o mantequilla 
    des-en: Homemade bread, 3 scrambled or fried eggs, cream cheese or butter 
    precio: $6.00
@@ -153,8 +153,8 @@ smoothies:
    precio: $5.00
  - nombre: Berry power
    nombre-en: Berry power
-   des: Frutos rojos, banana, chia
-   des-en: Berry mix, banana, chia 
+   des: Frutos rojos, banana, mantequilla de maní
+   des-en: Berry mix, banana, peanut butter  
    precio: $5.00
  - nombre: Mix your own (leche o agua)
    nombre-en: Mix your own (milk or water)
