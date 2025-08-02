@@ -19,6 +19,11 @@ desayunos:
    des: Pan casero, queso crema, cebolla morada, queso, 2 huevos fritos, espinaca, aceite de oliva
    des-en: Homemade bread, cream cheese, red onion, cheese, 2 fried eggs, spinach, olive oil 
    precio: $9.00
+ - nombre: ProteinBomb 
+   nombre-en: ProteinBomb 
+   des: Pan casero, queso crema, atún crudo, aguacate y ajonjolí
+   des-en: Homemade bread, cream cheese, fresh raw tuna, avocado & sesame 
+   precio: $11.00  
  - nombre: El saludable
    nombre-en: The healthy one
    des: Yoghurt griego, fruta fresca, granola de la casa, chia, miel 
