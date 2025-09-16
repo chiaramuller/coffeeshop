@@ -28,7 +28,7 @@ desayunos:
    nombre-en: El saludable
    des: Yoghurt griego, fruta fresca, granola de la casa, chia, miel 
    des-en: Greek yoghurt, fresh fruit, homemade granola, chia, honey 
-   precio: $8.00
+   precio: $9.00
  - nombre: Huevitos revueltos o Fritos 
    nombre-en: Huevitos revueltos o Fritos
    des: Pan casero, 3 huevos revueltos o fritos, queso crema o mantequilla 
@@ -58,6 +58,9 @@ extras:
  - nombre: Dulce de zanahoria (vegano)
    nombre-en: Carrot cake (vegan)
    precio: $3.00   
+ - nombre: Brownie 
+   nombre-en: Brownie 
+   precio: $4.00  
  - nombre: Fruta fresca
    nombre-en: Fresh fruit 
    precio: $3.00
@@ -88,24 +91,27 @@ bebidascalientes:
    precio: $4.00
  - nombre: Chai latte
    nombre-en: Chai latte 
-   precio: $ 4.50 
+   precio: $4.50 
  - nombre: Dirty Chai (Chai + Espresso)
    nombre-en: Dirty Chai (Chai + Espresso)
-   precio: $ 4.50 
+   precio: $4.50 
  - nombre: Matcha Latte
    nombre-en: Matcha Latte
-   precio: $ 4.50
+   precio: $4.50
  - nombre: Moccaccino
    nombre-en: Moccaccino
    precio: $4.50
  - nombre: Té 
    nombre-en: Tea
    precio: $2.50
- - nombre: + leche vegana
+ - nombre: + leche vegana 
    nombre-en: + vegan milk 
    precio: +$0.60
  - nombre: + sirope (avellana, vainilla, caramelo)
    nombre-en: + sirup (hazelnut, vanilla, caramel)
+   precio: +$0.60
+ - nombre: DECAF 
+   nombre-en: DECAF
    precio: +$0.60
 especialidadesfrias:
  - nombre: Iced coffee/frappé de café
@@ -156,6 +162,11 @@ smoothies:
    des: Frutos rojos, banana, chia
    des-en: Berry mix, banana, chia
    precio: $5.00
+ - nombre: ProteinShake 
+   nombre: ProteinShake 
+   precio: $ 6.00
+   des-en: 30gr of Proteins with Banana, Peanut Butter & Protein Powder
+   des: 30gr de Proteina con Banana, Mantequilla de Maní & Protein Powder
  - nombre: Mix your own (leche o agua)
    nombre-en: Mix your own (milk or water)
    des: Frutas de tu elección - banana, frutos rojos, piña, papaya, maracuya 
