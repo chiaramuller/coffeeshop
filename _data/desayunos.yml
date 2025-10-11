@@ -21,9 +21,11 @@ desayunos:
    precio: $9.00
  - nombre: ProteinBomb 
    nombre-en: ProteinBomb 
-   des: Pan casero, queso crema, atún crudo, aguacate y ajonjolí
-   des-en: Homemade bread, cream cheese, fresh raw tuna, avocado & sesame 
-   precio: $11.00  
+   des: >
+    Pan casero, queso crema, atún crudo, aguacate y ajonjolí <Br>1/2 plato: 6.75$
+   des-en: >
+    Homemade bread, cream cheese, fresh raw tuna, avocado & sesame <Br>1/2 plate: 6.75$
+   precio: $12.00 
  - nombre: El saludable
    nombre-en: El saludable
    des: Yoghurt griego, fruta fresca, granola de la casa, chia, miel 
