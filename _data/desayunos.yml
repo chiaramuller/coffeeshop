@@ -3,22 +3,22 @@ desayunos:
    nombre-en: The panamenian (GF possible)
    des: Hojaldra, bistek, huevo frito, queso
    des-en: Local fried bread, beef with vegetables, fried egg & cheese
-   precio: $9.00
+   precio: $11.00
  - nombre: Avo-Toast (opt vegano)
    nombre-en: Avo-Toast (vegan possible)
    des: Pan casero, aguacate, tomate, queso fresco, huevo frito, aceite de oliva
    des-en: Homemade bread, avocado, tomato, fresh cheese, fried egg, olive oil 
-   precio: $9.00
+   precio: $10.00
  - nombre: Smoothiebowl (vegano)
    nombre-en: Smoothiebowl (vegan)
    des: Smoothie bowl, granola de la casa, fruta fresca, mantequilla de maní, chia
    des-en: Frozen smoothie bowl, homemade granola, fresh fruit, peanut butter, chia
-   precio: $9.00
+   precio: $10.00
  - nombre: El especial
    nombre-en: El especial 
    des: Pan casero, queso crema, cebolla morada, queso, 2 huevos fritos, espinaca, aceite de oliva
    des-en: Homemade bread, cream cheese, red onion, cheese, 2 fried eggs, spinach, olive oil 
-   precio: $9.00
+   precio: $10.00
  - nombre: ProteinBomb 
    nombre-en: ProteinBomb 
    des: >
@@ -30,7 +30,7 @@ desayunos:
    nombre-en: El saludable
    des: Yoghurt griego, fruta fresca, granola de la casa, chia, miel 
    des-en: Greek yoghurt, fresh fruit, homemade granola, chia, honey 
-   precio: $9.00
+   precio: $10.00
  - nombre: Huevitos revueltos o Fritos 
    nombre-en: Huevitos revueltos o Fritos
    des: Pan casero, 3 huevos revueltos o fritos, queso crema o mantequilla 
@@ -59,7 +59,10 @@ desayunos:
 extras:
  - nombre: Dulce de zanahoria (vegano)
    nombre-en: Carrot cake (vegan)
-   precio: $3.00   
+   precio: $3.00
+ - nombre: Bananabread 
+   nombre-en: Bananabread 
+   precio: $3.50     
  - nombre: Brownie 
    nombre-en: Brownie 
    precio: $4.00  
@@ -91,15 +94,12 @@ bebidascalientes:
  - nombre: Chocolatada
    nombre-en: Hot chocolate
    precio: $4.00
- - nombre: Chai latte
-   nombre-en: Chai latte 
+ - nombre: Chai latte/Matcha Latte
+   nombre-en: Chai latte/Matcha Latte 
    precio: $4.50 
  - nombre: Dirty Chai (Chai + Espresso)
    nombre-en: Dirty Chai (Chai + Espresso)
    precio: $4.50 
- - nombre: Matcha Latte
-   nombre-en: Matcha Latte
-   precio: $4.50
  - nombre: Moccaccino
    nombre-en: Moccaccino
    precio: $4.50
@@ -108,7 +108,7 @@ bebidascalientes:
    precio: $2.50
  - nombre: + leche vegana 
    nombre-en: + vegan milk 
-   precio: +$0.60
+   precio: +$0.50
  - nombre: + sirope (avellana, vainilla, caramelo)
    nombre-en: + sirup (hazelnut, vanilla, caramel)
    precio: +$0.60
@@ -119,22 +119,19 @@ especialidadesfrias:
  - nombre: Iced coffee/frappé de café
    nombre-en: Iced coffee/frappé
    precio: $4.50
- - nombre: Iced Matcha Latte
-   nombre-en: Iced Matcha Latte
-   precio: $4.50
- - nombre: Frappé de café moccha/chocolate blanco/avellana/vainilla/salty caramel 
+ - nombre: Iced Matcha Latte/Iced Chai Latte
+   nombre-en: Iced Matcha Latte/Iced Chai Latte
+   precio: $4.75
+ - nombre: Frappé de café moccha/chocolate blanco/avellana/salty caramel/caramel 
    nombre-en: Frappé with coffee moccha/white chocolate/hazelnut/vanilla/salty caramel/caramel 
-   precio: $4.50 
- - nombre: Dirty Chai/Matcha Latte Frappé 
-   nombre-en: Dirty Chai Frappé
    precio: $5.00 
  - nombre: Pipa/Coco frío
    nombre-en: Cold coconut
    precio: $3.00
- - nombre: Jugo de naranja/mango/manzana 
-   nombre-en: Orange juice/apple juice/mango juice
+ - nombre: Jugo de naranja/manzana 
+   nombre-en: Orange juice/apple juice juice
    precio: $2.00
- - nombre: Jugo natural de pina/papaya/mango/frutos rojos
+ - nombre: Jugo natural de pina/papaya/mango/maracuya/frutos rojos
    nombre-en: Natural juice pineapple/papaya/mango/red fruits
    precio: $3.00
 Frappes:
@@ -154,8 +151,8 @@ smoothies:
    des: Espinaca, apio, piña, gengibre
    des-en: Spinach, sellery, pineapple, ginger
    precio: $5.00
- - nombre: Booster de antioxidantes
-   nombre-en: Antioxidant booster
+ - nombre: Booster
+   nombre-en: Booster
    des: Remolacha, Zanahoria, Gengibre, Lemon
    des-en: Beetroot, Carrot, Ginger, Lemon 
    precio: $5.00
@@ -163,10 +160,10 @@ smoothies:
    nombre-en: Berry power
    des: Frutos rojos, banana, chia
    des-en: Berry mix, banana, chia
-   precio: $5.00
+   precio: $5.00 (extra protein +2$)
  - nombre: ProteinShake 
-   nombre: ProteinShake 
-   precio: $ 6.00
+   nombre-en: ProteinShake 
+   precio: $6.00
    des-en: 30gr of Proteins with Banana, Peanut Butter & Protein Powder
    des: 30gr de Proteina con Banana, Mantequilla de Maní & Protein Powder
  - nombre: Mix your own (leche o agua)

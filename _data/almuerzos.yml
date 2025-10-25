@@ -1,38 +1,40 @@
 clasicos:
- - nombre: Poke bowl (vegan opt.)
+ - nombre: Poke bowl
    nombre-en: Poke bowl 
-   des: Arroz blanco, atún crudo, pepino, aguacate y pina/mango con una salsa de gingibre, miel y soja  
-   des-en: White rice, fresh raw tuna, cucumber, avocado & pineapple/mango with a ginger-honey-soy-sauce
+   des: Arroz blanco con coco, atún crudo, pepino, aguacate y piña con una salsa de gingibre, miel y soja  
+   des-en: White coconutty rice, fresh raw tuna, cucumber, avocado & pineapple with a ginger-honey-soy-sauce
    precio: $13.50
- - nombre: Ensalada de la casa (vegan opt)
+ - nombre: Ensalada de la casa (vegan)
    nombre-en: Salad "de la casa"
-   des: Lechuga romana, tomates, aguacate, pineapple/mango, aceite de oliva, limón con pan de ajo
-   des-en: Romana lettuce, tomatoes, avocado, mango, olive oil, lemon with garlic bread
-   precio: $9.00
+   des: Lechuga romana, tomates, aguacate, pineapple, aceite de oliva, limón con pan de ajo
+   des-en: Romana lettuce, tomatoes, avocado, pineapple, olive oil, lemon with garlic bread
+   precio: $10.00
    add: 
     - des: + atún sellado y chimichurri 
       des-en: + sealed tuna & chimichurri 
       precio: +$5.00
     - des: + pechuga de pollo 
       des-en: + chicken breast 
-      precio: +$3.00   
-    - des: + edamame 
-      des-en: + edamame 
-      precio: +$2.50
+      precio: +$3.50   
  - nombre: La poderosa
    nombre-en: La poderosa 
    des: Lechuga romana, quinoa, zapallo, queso, tomate & almendras con pechuga de pollo 
    des-en: Romana lettuce, quinoa, squash, cheese, tomato & almonds with chicken breast 
-   precio: $11.00 
- - nombre: El ChimiBurger // Chimiburger VEGGIE
+   precio: $13.00 
+ - nombre: El ChimiBurger
    nombre-en: The ChimiBurger  
-   des: Hamburguesa de res/queso caramelizado con chimichurri en pan brioche con queso amarillo, lechuga, cebolla morada, tomate acompañada con papitas fritas
+   des: Hamburguesa de res con chimichurri en pan brioche con queso amarillo, lechuga, cebolla morada, tomate acompañada con papitas fritas
    des-en: Beef burger with chimi churri on brioche with yellow cheese, lettuce, red onion, tomato & french fries 
-   precio: $12.00
+   precio: $13.00
    add: 
     - des: + bacon 
       des-en: + bacon 
-      price: + $1.50
+      price: + $2.50
+ - nombre: El Veggie-ChimiBurger
+   nombre-en: The Veggie-ChimiBurger 
+   des: Hamburguesa de Queso caramelizado con chimichurri en pan brioche con lechuga, cebolla morada, tomate acompañada con papitas fritas
+   des-en: Caramelized Cheese - Burger with chimi churri on brioche with lettuce, red onion, tomato & french fries 
+   precio: $12.00
  - nombre: Hamburguesa de Pollo
    nombre-en: ChickenBurger 
    des: Hamburguesa de pollo con coleslaw en pan brioche con mayonesa de la casa acompañada con papitas fritas
@@ -43,20 +45,20 @@ clasicos:
    add:
    - des: Pasta Alfredo con Pechuga de Pollo y Quesito Parmesano
      des-en: Pasta Alfredo with Chicken Breast & freshly grated Parmesan Cheese
-     precio: $11.00
+     precio: $12.00
    - des: Penne a la Bolognesa y Quesito Parmesano 
      des-en: Penne a la Bolognese with freshly grated Parmesan Cheese
      precio: $10.00
  - nombre: Taquitos (3x)
    nombre-en: Taquitos (3x)
    add: 
-    - des: Taquitos de pollo con queso & pico de gallo 
-      des-en: Taquitos with chicken, cheese & pico de gallo 
+    - des: de pollo con queso, cebolla & culantro
+      des-en: Taquitos with chicken, cheese, onion & culantro
       precio: $11.00
-    - des: + de bistek & cebolla 
-      des-en: + with beef & onion 
+    - des:  de carne molida, queso, cebolla y culantro 
+      des-en: Taquitos with minced beef, chees, onion & culantro
       precio: $11.00
-    - des: Taquitos vegetarianos (queso, cebolla morada, huevo, espinaca)
+    - des:  vegetarianos (queso, cebolla morada, huevo, espinaca)
       des-en: Veggie-Tacos (cheese, red onion, egg & spinach)
       precio: $11.00
 bebidas: 
@@ -65,7 +67,7 @@ bebidas:
    precio: $1.50
  - nombre: Agua Dasani 1L 
    nombre-en: Water bottle 1l
-   precio: $2.00
+   precio: $2.50
  - nombre: Sodas/Juice (Coca Cola, Fanta, Sprite, Fresca, Ginger Ale, Tonic Water, Agua con Gas)
    nombre-en: Sodas/Juice (Coke, Coke Zero, Fanta, Sprite, Fresca, Ginger Ale, Tonic Water, Sparkling Water)
    precio: $2.50
