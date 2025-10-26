@@ -25,7 +25,7 @@ clasicos:
    nombre-en: The ChimiBurger  
    des: Hamburguesa de res con chimichurri en pan brioche con queso amarillo, lechuga, cebolla morada, tomate acompañada con papitas fritas
    des-en: Beef burger with chimi churri on brioche with yellow cheese, lettuce, red onion, tomato & french fries 
-   precio: $13.00
+   precio: $13.50
    add: 
     - des: + bacon 
       des-en: + bacon 
