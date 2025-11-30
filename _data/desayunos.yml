@@ -43,8 +43,8 @@ desayunos:
    precio: $6.00
  - nombre: Pancakes americanos
    nombre-en: American pancakes 
-   des: Clásico - Sirope, Mantequilla, Almendra tostada <br>Fruta - Fruta fresca, almendras y sirope <br>Salado - Huevo revuelto y bacon 
-   des-en: Classic - Sirop, Butter, Toasted almond <br>Fruity - Fresh fruit, toasted almonds & sirup <br>Salty - Scrambled eggs & bacon 
+   des: Fruta - Fruta fresca, almendras y sirope <br>Salado - Huevo revuelto y bacon 
+   des-en: Fruity - Fresh fruit, toasted almonds & sirup <br>Salty - Scrambled eggs & bacon 
    precio: $8.00
  - nombre: Extras
    nombre-en: Extras 
@@ -55,7 +55,7 @@ desayunos:
    nombre- en: Extras premium 
    des: Aguacate, bacon 
    des-en: Avocado, bacon 
-   precio: $ 2.50
+   precio: $ 3.00
 extras:
  - nombre: Dulce de zanahoria (vegano)
    nombre-en: Carrot cake (vegan)
