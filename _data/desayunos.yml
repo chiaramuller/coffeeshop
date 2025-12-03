@@ -51,11 +51,13 @@ desayunos:
    des: Mantequilla, jamón, queso, huevo, pan, queso crema, hojaldra
    des-en: Butter, ham, cheese, egg, bread, cream cheese, hojaldra 
    precio: $1.50 
- - NOMBRE: Extras premium 
-   nombre- en: Extras premium 
-   des: Aguacate, bacon 
-   des-en: Avocado, bacon 
+ - NOMBRE: Extra aguacate 
+   nombre- en: Extra avocado 
+   precio: $ 2.50
+ - NOMBRE: Extra tocino 
+   nombre- en: Extra bacon  
    precio: $ 3.00
+
 extras:
  - nombre: Dulce de zanahoria (vegano)
    nombre-en: Carrot cake (vegan)
