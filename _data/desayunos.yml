@@ -135,7 +135,10 @@ especialidadesfrias:
    precio: $2.00
  - nombre: Jugo natural de pina/papaya/mango/maracuya/frutos rojos
    nombre-en: Natural juice pineapple/papaya/mango/red fruits
-   precio: $3.00
+   precio: $3.50 
+ - nombre: Jugo natural ≥ 2 Frutas
+   nombre-en: Natural ≥ 2 Fruits
+   precio: $4.50
 Frappes:
  - nombre: Simple - solo café  
    nombre-en: plain - just coffee 
@@ -172,4 +175,4 @@ smoothies:
    nombre-en: Mix your own (milk or water)
    des: Frutas de tu elección - banana, frutos rojos, piña, papaya, maracuya 
    des-en: Fruits of your choice - banana, red berries, pineapple, papaya, maracuya
-   precio: $4.00
+   precio: $4.50
