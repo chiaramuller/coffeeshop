@@ -1,4 +1,16 @@
 clasicos:
+ - nombre: Taquitos (3x)
+   nombre-en: Taquitos (3x)
+   add: 
+    - des: de pollo con queso, cebolla & culantro
+      des-en: Taquitos with chicken, cheese, onion & culantro
+      precio: $11.00
+    - des:  de carne molida, queso, cebolla y culantro 
+      des-en: Taquitos with minced beef, chees, onion & culantro
+      precio: $11.00
+    - des:  vegetarianos (queso, cebolla morada, huevo, espinaca)
+      des-en: Veggie-Tacos (cheese, red onion, egg & spinach)
+      precio: $12.00
  - nombre: Poke bowl
    nombre-en: Poke bowl 
    des: Arroz blanco con coco, atún crudo, pepino, aguacate y piña con una salsa de gingibre, miel y soja  
@@ -49,18 +61,6 @@ clasicos:
    - des: Penne a la Bolognesa y Quesito Parmesano 
      des-en: Penne a la Bolognese with freshly grated Parmesan Cheese
      precio: $10.00
- - nombre: Taquitos (3x)
-   nombre-en: Taquitos (3x)
-   add: 
-    - des: de pollo con queso, cebolla & culantro
-      des-en: Taquitos with chicken, cheese, onion & culantro
-      precio: $11.00
-    - des:  de carne molida, queso, cebolla y culantro 
-      des-en: Taquitos with minced beef, chees, onion & culantro
-      precio: $11.00
-    - des:  vegetarianos (queso, cebolla morada, huevo, espinaca)
-      des-en: Veggie-Tacos (cheese, red onion, egg & spinach)
-      precio: $11.00
 bebidas: 
  - nombre: Agua Dasani 600ml
    nombre-en: Water bottle 600ml

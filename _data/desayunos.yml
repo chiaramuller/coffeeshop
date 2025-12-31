@@ -125,16 +125,13 @@ especialidadesfrias:
    nombre-en: Iced Matcha Latte/Iced Chai Latte
    precio: $4.75
  - nombre: Frappé de café moccha/chocolate blanco/avellana/salty caramel/caramel 
-   nombre-en: Frappé with coffee moccha/white chocolate/hazelnut/vanilla/salty caramel/caramel 
+   nombre-en: Frappé with coffee moccha/white chocolate/hazelnut/salty caramel/caramel 
    precio: $5.00 
  - nombre: Pipa/Coco frío
    nombre-en: Cold coconut
    precio: $3.00
- - nombre: Jugo de naranja/manzana 
-   nombre-en: Orange juice/apple juice juice
-   precio: $2.00
- - nombre: Jugo natural de pina/papaya/mango/maracuya/frutos rojos
-   nombre-en: Natural juice pineapple/papaya/mango/red fruits
+ - nombre: Jugo natural de piña/papaya/mango/banana/maracuya/frutos rojos
+   nombre-en: Natural juice pineapple/papaya/banana/mango/red fruits
    precio: $3.50 
  - nombre: Jugo natural ≥ 2 Frutas
    nombre-en: Natural ≥ 2 Fruits
