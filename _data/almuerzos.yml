@@ -18,8 +18,8 @@ clasicos:
    precio: $13.50
  - nombre: Ensalada de la casa (vegan)
    nombre-en: Salad "de la casa"
-   des: Lechuga romana, tomates, aguacate, pineapple, aceite de oliva, limón con pan de ajo
-   des-en: Romana lettuce, tomatoes, avocado, pineapple, olive oil, lemon with garlic bread
+   des: Lechuga romana, tomates, aguacate, pineapple, almendras tostadas, aceite de oliva, limón con pan de ajo
+   des-en: Romana lettuce, tomatoes, avocado, pineapple, toasted almonds, olive oil, lemon with garlic bread
    precio: $10.00
    add: 
     - des: + atún sellado y chimichurri 
