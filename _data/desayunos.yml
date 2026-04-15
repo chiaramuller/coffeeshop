@@ -3,17 +3,17 @@ desayunos:
    nombre-en: The panamenian (GF possible)
    des: Hojaldra, bistek, huevo frito, queso
    des-en: Local fried bread, beef with vegetables, fried egg & cheese
-   precio: $11.00
+   precio: $12.00
  - nombre: Avo-Toast (opt vegano)
    nombre-en: Avo-Toast (vegan possible)
    des: Pan casero, aguacate, tomate, queso fresco, huevo frito, aceite de oliva
    des-en: Homemade bread, avocado, tomato, fresh cheese, fried egg, olive oil 
-   precio: $10.00
+   precio: $11.00
  - nombre: Smoothiebowl (vegano)
    nombre-en: Smoothiebowl (vegan)
    des: Smoothie bowl, granola de la casa, fruta fresca, mantequilla de maní, chia
    des-en: Frozen smoothie bowl, homemade granola, fresh fruit, peanut butter, chia
-   precio: $10.00
+   precio: $11.00
  - nombre: El especial
    nombre-en: El especial 
    des: Pan casero, queso crema, cebolla morada, queso, 2 huevos fritos, espinaca, aceite de oliva
@@ -22,9 +22,9 @@ desayunos:
  - nombre: ProteinBomb 
    nombre-en: ProteinBomb 
    des: >
-    Pan casero, queso crema, atún crudo, aguacate y ajonjolí <Br>1/2 plato: 6.75$
+    Pan casero, queso crema, atún crudo, aguacate y ajonjolí 
    des-en: >
-    Homemade bread, cream cheese, fresh raw tuna, avocado & sesame <Br>1/2 plate: 6.75$
+    Homemade bread, cream cheese, fresh raw tuna, avocado & sesame 
    precio: $12.00 
  - nombre: El saludable
    nombre-en: El saludable
@@ -35,7 +35,7 @@ desayunos:
    nombre-en: Huevitos revueltos o Fritos
    des: Pan casero, 3 huevos revueltos o fritos, queso crema o mantequilla 
    des-en: Homemade bread, 3 scrambled or fried eggs, cream cheese or butter 
-   precio: $6.00
+   precio: $7.00
  - nombre: Crêpe - pancake francés 
    nombre-en: Crêpe - french pancake 
    des: Dulce - Nutella & banana <br>Salado - Jamon, queso & tomate
@@ -45,23 +45,20 @@ desayunos:
    nombre-en: American pancakes 
    des: Fruta - Fruta fresca, almendras y sirope <br>Salado - Huevo revuelto y bacon 
    des-en: Fruity - Fresh fruit, toasted almonds & sirup <br>Salty - Scrambled eggs & bacon 
-   precio: $8.00
+   precio: $9.00
  - nombre: Extras
    nombre-en: Extras 
    des: Mantequilla, jamón, queso, huevo, pan, queso crema, hojaldra
    des-en: Butter, ham, cheese, egg, bread, cream cheese, hojaldra 
    precio: $1.50 
- - NOMBRE: Extra aguacate 
+ - nombre: Extra aguacate 
    nombre- en: Extra avocado 
    precio: $ 2.50
- - NOMBRE: Extra tocino 
+ - nombre: Extra tocino 
    nombre- en: Extra bacon  
    precio: $ 3.00
 
 extras:
- - nombre: Dulce de zanahoria (vegano)
-   nombre-en: Carrot cake (vegan)
-   precio: $3.00
  - nombre: Bananabread 
    nombre-en: Bananabread 
    precio: $4.00     
@@ -77,7 +74,7 @@ bebidascalientes:
    precio: $2.50
  - nombre: Espressio doppio
    nombre-en: Double espresso
-   precio: $3.00
+   precio: $3.50
  - nombre: Americano
    nombre-en: Americano
    precio: $2.50
@@ -98,10 +95,10 @@ bebidascalientes:
    precio: $4.00
  - nombre: Chai latte/Matcha Latte
    nombre-en: Chai latte/Matcha Latte 
-   precio: $4.50 
+   precio: $4.75 
  - nombre: Dirty Chai (Chai + Espresso)
    nombre-en: Dirty Chai (Chai + Espresso)
-   precio: $4.50 
+   precio: $4.75 
  - nombre: Moccaccino
    nombre-en: Moccaccino
    precio: $4.50
@@ -113,10 +110,10 @@ bebidascalientes:
    precio: +$0.50
  - nombre: + sirope (avellana, vainilla, caramelo)
    nombre-en: + sirup (hazelnut, vanilla, caramel)
-   precio: +$0.60
+   precio: +$0.50
  - nombre: DECAF 
    nombre-en: DECAF
-   precio: +$0.60
+   precio: +$0.50
 especialidadesfrias:
  - nombre: Iced coffee/frappé de café
    nombre-en: Iced coffee/frappé
@@ -129,13 +126,13 @@ especialidadesfrias:
    precio: $5.00 
  - nombre: Pipa/Coco frío
    nombre-en: Cold coconut
-   precio: $3.00
+   precio: $3.50
  - nombre: Jugo natural de piña/papaya/mango/banana/maracuya/frutos rojos
    nombre-en: Natural juice pineapple/papaya/banana/mango/red fruits
-   precio: $3.50 
+   precio: $4.00 
  - nombre: Jugo natural ≥ 2 Frutas
    nombre-en: Natural ≥ 2 Fruits
-   precio: $4.50
+   precio: $5.00
 Frappes:
  - nombre: Simple - solo café  
    nombre-en: plain - just coffee 
@@ -162,7 +159,7 @@ smoothies:
    nombre-en: Berry power
    des: Frutos rojos, banana, chia
    des-en: Berry mix, banana, chia
-   precio: $5.00 (extra protein +2$)
+   precio: $6.00 
  - nombre: ProteinShake 
    nombre-en: ProteinShake 
    precio: $6.00
@@ -173,3 +170,6 @@ smoothies:
    des: Frutas de tu elección - banana, frutos rojos, piña, papaya, maracuya 
    des-en: Fruits of your choice - banana, red berries, pineapple, papaya, maracuya
    precio: $4.50
+ - nombre: + Proteina
+   nombre-en: + Proteinpowder
+   precio: + $2.00
