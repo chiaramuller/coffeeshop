@@ -71,6 +71,9 @@ bebidas:
  - nombre: Sodas/Juice (Coca Cola, Fanta, Sprite, Fresca, Ginger Ale, Tonic Water, Agua con Gas)
    nombre-en: Sodas/Juice (Coke, Coke Zero, Fanta, Sprite, Fresca, Ginger Ale, Tonic Water, Sparkling Water)
    precio: $2.50
+ - nombre: Pipa fria
+   nombre-en: Cold coconut
+   price: $3.50
  - nombre: Chichas (piña, papaya, mango, fresa)
    nombre-en: Natural Juice (Pineapple, papaya, mango, strawberry)
    precio: $3.00

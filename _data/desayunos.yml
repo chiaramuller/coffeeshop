@@ -1,4 +1,9 @@
 desayunos:
+ - nombre: Huevitos revueltos o Fritos 
+   nombre-en: Huevitos revueltos o Fritos
+   des: Pan casero, 3 huevos revueltos o fritos, queso crema o mantequilla 
+   des-en: Homemade bread, 3 scrambled or fried eggs, cream cheese or butter 
+   precio: $7.00
  - nombre: El panameño (opt GF)
    nombre-en: The panamenian (GF possible)
    des: Hojaldra, bistek, huevo frito, queso
@@ -31,11 +36,6 @@ desayunos:
    des: Yoghurt griego, fruta fresca, granola de la casa, chia, miel 
    des-en: Greek yoghurt, fresh fruit, homemade granola, chia, honey 
    precio: $10.00
- - nombre: Huevitos revueltos o Fritos 
-   nombre-en: Huevitos revueltos o Fritos
-   des: Pan casero, 3 huevos revueltos o fritos, queso crema o mantequilla 
-   des-en: Homemade bread, 3 scrambled or fried eggs, cream cheese or butter 
-   precio: $7.00
  - nombre: Crêpe - pancake francés 
    nombre-en: Crêpe - french pancake 
    des: Dulce - Nutella & banana <br>Salado - Jamon, queso & tomate
